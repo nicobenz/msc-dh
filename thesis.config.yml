@@ -1,0 +1,47 @@
+# margi configuration — see https://github.com/nicobenz/margi
+format: typst
+main: main.typ               # entry file; #include "..." is followed
+
+# true: agents in this repo may not edit thesis sources (.typ, .bib, …) or run git
+# commit/push/reset/checkout, whatever you ask them. false: only margi's own commands keep to
+# the human-writing rules. After changing it, run `uv run margi init`: it updates
+# .claude/settings.json and commits both, so the switch stays visible in git history.
+protect_thesis: true
+
+# Optional aliases for `/margi grade <alias>`; otherwise use numbers (2.1) or titles.
+sections: {}
+#  prior-work: { heading: "Prior Work" }
+
+count: chars                 # chars | chars_no_spaces | words (used by `/margi outline`)
+
+propose:
+  source: PROPOSAL.md        # your plan in your own words (override with --from)
+
+literature:
+  dir: lit                   # PDFs rated by `/margi read`
+  bib: refs.bib
+
+docs:
+  min_completeness: 0.7      # grade/read refuse below this share of documented fields
+
+grade:
+  precheck: ask              # strict | ask | none — what `/margi grade` does with a section that
+                             # isn't ready yet (too little running prose, mostly list items,
+                             # lorem ipsum): strict records it as not ready, ask lets you grade it
+                             # anyway (on record), none grades without asking
+  min_words: 150             # running prose below this counts as not ready
+  max_list_share: 0.5        # more list-item lines than this counts as not ready
+
+# Who your saved versions are recorded as. Stays in this project; change it here any time
+# (later saves use the new value) or ask your agent to.
+author:
+  name: "Nico Benz"
+  email: "nico.benz@studserv.uni-leipzig.de"
+
+ai_identity:
+  name: margi-bot
+  email: margi-bot@users.noreply.github.com
+
+github:
+  sync: false               # true: accepted todos also become GitHub issues (needs `gh`)
+  label: margi

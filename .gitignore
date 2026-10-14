@@ -1,0 +1,5 @@
+# Written by margi init. Files here are never saved as versions of your thesis.
+.venv/
+.DS_Store
+Thumbs.db
+/main.pdf

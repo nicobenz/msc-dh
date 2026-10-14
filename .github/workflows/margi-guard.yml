@@ -1,0 +1,25 @@
+name: margi guard
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+      - name: Install margi
+        run: uv sync --frozen
+      - name: Check commits
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            RANGE="origin/${{ github.base_ref }}..HEAD"
+          elif [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+            RANGE="HEAD"
+          else
+            RANGE="${{ github.event.before }}..HEAD"
+          fi
+          uv run --frozen margi guard --range "$RANGE"

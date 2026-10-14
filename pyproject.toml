@@ -1,0 +1,10 @@
+[project]
+name = "msc-dh"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "margi==0.4.1",
+]

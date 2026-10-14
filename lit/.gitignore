@@ -1,0 +1,3 @@
+# Papers stay on this machine: margi reads them here, but they don't belong in git.
+*
+!.gitignore
