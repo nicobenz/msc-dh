@@ -41,6 +41,6 @@ Metric combination chosen to cover different perspectives and aspects. (src: PRO
 ## Limitations
 - LLM judges are hard to align to the use case; changing a judge prompt mid-test invalidates earlier scores; iteratively improving the prompt on this dataset risks overfitting. (src: PROPOSAL.md:45)
 - Gold standard quality unchecked; only one case evaluated. (src: PROPOSAL.md:39, 45, 76)
-- LLM judges of the same model family as the voicebot tend to grade each other favourably; to be covered in the limitations section. (user, 2026-10-16, open-questions.md)
+- LLM judges of the same model family as the voicebot tend to grade each other favourably; to be covered in the limitations section; checking or reducing this bias is out of scope. (user, 2026-10-16, open-questions.md)
 - No metric validation (see above). (user, 2026-10-16, open-questions.md)
 - Slow LLM judges: pipeline run takes probably a couple of days. (src: PROPOSAL.md:66)

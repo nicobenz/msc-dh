@@ -9,7 +9,7 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-16T19:44:20Z",
+ "updated": "2026-10-16T19:46:33Z",
  "thesis_commit": {
   "sha": "e90196ba632c742fea10ed3b02cb47a52a627503",
   "date": "2026-10-16T21:03:08+02:00"
@@ -556,10 +556,9 @@ window.MARGI_DASH = {
    ]
   },
   "open_questions": [
-   "**Research question** (2026-10-16): \"High similarity scores\" count as success. How high, measured by which metric, and against what reference value (for example a baseline) is that judged?",
-   "**Method** (2026-10-16): The judge and the voicebot are from the same model family. Beyond naming this in the limitations, is there any step to check or reduce the bias?",
-   "**Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as not yet known; planned for the first weeks.)",
-   "**Constraints** (2026-10-16): When do you expect to officially start and to submit? (Stated as unknown and left open.)"
+   "**Research question** (2026-10-16): The success threshold is similarity > 0.9. Which of the metrics (embedding similarity, TF-IDF, WER, LLM judge, ...) does it apply to, and is it per item, per node or on average?",
+   "**Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as unknown currently.)",
+   "**Constraints** (2026-10-16): When do you expect to officially start and to submit? (Skipped for now.)"
   ],
   "challenge_aspect": "research-question",
   "plan_written": true
@@ -578,6 +577,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-16T19:46:33Z",
+   "command": "propose",
+   "scope": "update",
+   "summary": "Folded in the company's success threshold (similarity > 0.9) and the decision that same-family judge bias is only named as a limitation. Two questions resolved; three remain, one new about which metric the threshold applies to.",
+   "model": null,
+   "file": "20261016T194633Z_propose_update.json"
+  },
   {
    "timestamp": "2026-10-16T19:44:20Z",
    "command": "propose",
@@ -647,7 +654,7 @@ window.MARGI_DASH = {
   },
   {
    "command": "/margi challenge research-question",
-   "reason": "4 open questions in the project docs, most of them about research question.",
+   "reason": "3 open questions in the project docs, most of them about research question.",
    "source": "check"
   }
  ],

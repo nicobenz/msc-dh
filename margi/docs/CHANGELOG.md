@@ -10,3 +10,6 @@ Files: research-question.md, dataset.md, method.md, field.md, structure.md, cons
 
 ## 2026-10-16 — propose (update)
 Files: research-question.md, method.md, field.md, structure.md, constraints.md, open-questions.md. Folded in newly written answers; resolved 5 questions, raised 2.
+
+## 2026-10-16 — propose (update)
+Files: research-question.md, method.md, open-questions.md. Folded in the 0.9 success threshold and the out-of-scope bias handling; resolved 2 questions, raised 1.
