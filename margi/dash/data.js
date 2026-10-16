@@ -9,7 +9,7 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-16T19:33:20Z",
+ "updated": "2026-10-16T19:44:20Z",
  "thesis_commit": {
   "sha": "e90196ba632c742fea10ed3b02cb47a52a627503",
   "date": "2026-10-16T21:03:08+02:00"
@@ -543,9 +543,9 @@ window.MARGI_DASH = {
  "comments": [],
  "grade_precheck": "ask",
  "docs": {
-  "filled": 25,
+  "filled": 26,
   "required": 28,
-  "completeness": 0.893,
+  "completeness": 0.929,
   "threshold": 0.7,
   "missing": {
    "field.md": [
@@ -553,22 +553,15 @@ window.MARGI_DASH = {
    ],
    "structure.md": [
     "Length targets"
-   ],
-   "constraints.md": [
-    "Style and citation guide"
    ]
   },
   "open_questions": [
-   "**Method** (2026-10-16): What is the \"DAG\" in the title as against a cyclic graph, given that the dialogue path depends on the patient's answers?",
-   "**Method** (2026-10-16): Which speech-to-speech model(s) and which judge LLMs are used, and are the judge models different from the voicebot's model?",
-   "**Data / corpus** (2026-10-16): What is the input for each node (simulated patient utterance, text, audio), and how is the system put into the state of a node for testing?",
-   "**Method** (2026-10-16): The metrics are not validated in the thesis. How will the thesis argue for their suitability from literature, and how does it handle the \"maybe not scientific\" choice of langgraph?",
-   "**Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as not yet in refs.bib.)",
-   "**Research question** (2026-10-16): The answer is a process description plus template, evidenced by the evaluation. What result of the evaluation would count as the process having worked?",
-   "**Planned outline** (2026-10-16): How will the thesis chapters be organised? (Stated as not set yet.)",
-   "**Constraints** (2026-10-16): When do you expect to officially start and to submit, and are there formal requirements of the university beyond length?"
+   "**Research question** (2026-10-16): \"High similarity scores\" count as success. How high, measured by which metric, and against what reference value (for example a baseline) is that judged?",
+   "**Method** (2026-10-16): The judge and the voicebot are from the same model family. Beyond naming this in the limitations, is there any step to check or reduce the bias?",
+   "**Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as not yet known; planned for the first weeks.)",
+   "**Constraints** (2026-10-16): When do you expect to officially start and to submit? (Stated as unknown and left open.)"
   ],
-  "challenge_aspect": "method",
+  "challenge_aspect": "research-question",
   "plan_written": true
  },
  "outline": {
@@ -585,6 +578,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-16T19:44:20Z",
+   "command": "propose",
+   "scope": "update",
+   "summary": "Folded the user's new answers from open-questions.md into the docs: the DAG meaning, gpt-realtime and gpt-5-mini, text input per node, suitability argued via literature, success as high similarity scores, formal requirements in the typst setup. Five questions resolved; four remain, two of them new (success threshold, same-family judge bias).",
+   "model": null,
+   "file": "20261016T194420Z_propose_update.json"
+  },
   {
    "timestamp": "2026-10-16T19:33:20Z",
    "command": "propose",
@@ -645,8 +646,8 @@ window.MARGI_DASH = {
    "source": "check"
   },
   {
-   "command": "/margi challenge method",
-   "reason": "8 open questions in the project docs, most of them about method.",
+   "command": "/margi challenge research-question",
+   "reason": "4 open questions in the project docs, most of them about research question.",
    "source": "check"
   }
  ],
@@ -669,7 +670,7 @@ window.MARGI_DASH = {
     "id": "docs",
     "title": "Document enough to grade (70% of the docs)",
     "done": true,
-    "command": "/margi challenge method"
+    "command": "/margi challenge research-question"
    },
    {
     "id": "deadline",

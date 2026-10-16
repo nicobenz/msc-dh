@@ -14,6 +14,8 @@ Evaluation procedure: feed the gold dataset's input for each node into the syste
 - Web app deployed to the company's cloud for internal stakeholders and subject matter experts to test. (src: PROPOSAL.md:60)
 - Evaluation pipeline with code and CI/CD for automated runs. (src: PROPOSAL.md:66)
 - DeepEval for LLM judges. (src: PROPOSAL.md:45)
+- Voicebot model: gpt-realtime; LLM judge: gpt-5-mini. Different models of the same family; fixed by the company stack and not up for debate. (user, 2026-10-16, open-questions.md)
+- The graph is a DAG: a route split by an answer can rejoin another route later, so several routes can lead to the same goal node. (user, 2026-10-16, open-questions.md)
 
 ## Justification and alternatives considered
 Metric combination chosen to cover different perspectives and aspects. (src: PROPOSAL.md:45) Per metric (src: PROPOSAL.md:45):
@@ -32,10 +34,13 @@ Metric combination chosen to cover different perspectives and aspects. (src: PRO
 - Pre-evaluation: internal stakeholders/subject matter experts test the app to find obvious issues. (src: PROPOSAL.md:60)
 - Metrics are not validated in this thesis; it relies on literature and past work, especially for LLM judges, because the company project has no metric validation rounds. (user, 2026-10-16, open-questions.md)
 - Similarity to the gold standard cannot prove correctness or safety, but since the gold items were created by subject matter experts as correct and safe, higher similarity is taken to correlate with higher correctness and safety. (user, 2026-10-16, open-questions.md)
+- Evaluation input is the gold standard's text, a simulated patient utterance; gpt-realtime accepts text and works with text internally, so text input is taken to evaluate the voice component, assuming perfect transcription. (user, 2026-10-16, open-questions.md)
+- Suitability of the metrics, especially LLM judges, is argued by describing multiple studies on LLM judges (with their validation and alignment steps) in the previous work section. (user, 2026-10-16, open-questions.md)
 - Text tokens from the speech-to-speech model are evaluated, not the audio. (user, 2026-10-16, open-questions.md)
 
 ## Limitations
 - LLM judges are hard to align to the use case; changing a judge prompt mid-test invalidates earlier scores; iteratively improving the prompt on this dataset risks overfitting. (src: PROPOSAL.md:45)
 - Gold standard quality unchecked; only one case evaluated. (src: PROPOSAL.md:39, 45, 76)
+- LLM judges of the same model family as the voicebot tend to grade each other favourably; to be covered in the limitations section. (user, 2026-10-16, open-questions.md)
 - No metric validation (see above). (user, 2026-10-16, open-questions.md)
 - Slow LLM judges: pipeline run takes probably a couple of days. (src: PROPOSAL.md:66)

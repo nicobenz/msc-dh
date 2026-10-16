@@ -7,3 +7,6 @@ Files: research-question.md, dataset.md, method.md, field.md, structure.md, cons
 
 ## 2026-10-16 — propose (update)
 Files: research-question.md, dataset.md, method.md, field.md, structure.md, constraints.md, open-questions.md. Folded in the answers written into open-questions.md; resolved 9 questions, raised new ones.
+
+## 2026-10-16 — propose (update)
+Files: research-question.md, method.md, field.md, structure.md, constraints.md, open-questions.md. Folded in newly written answers; resolved 5 questions, raised 2.

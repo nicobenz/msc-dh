@@ -3,7 +3,7 @@
 <!-- Written by `/margi propose` / `/margi challenge`. Every statement cites (src: file:lines) or (user, date). -->
 
 ## Deadline and milestones
-The submission date is not fixed but flexible; the thesis is not officially started yet, but work is already allowed. (user, 2026-10-16, open-questions.md) No calendar dates given. The plan spans 20 weeks, ending with the finished thesis and submission preparation in weeks 16-20. (src: PROPOSAL.md:53-72)
+The submission date is not fixed but flexible; the thesis is not officially started yet, but work is already allowed. (user, 2026-10-16, open-questions.md) Official start and submission are not known and left open for now. (user, 2026-10-16, open-questions.md) No calendar dates given. The plan spans 20 weeks, ending with the finished thesis and submission preparation in weeks 16-20. (src: PROPOSAL.md:53-72)
 
 <!--
 Machine-readable dates for the dashboard's timeline. Dates as YYYY-MM-DD. Milestones with
@@ -26,7 +26,7 @@ milestones:
 No fixed length limit; the advisor said all aspects have to be covered well and the resulting page count is the correct one. (user, 2026-10-16, open-questions.md)
 
 ## Style and citation guide
-_not yet documented_
+Formal requirements are covered by the typst setup of the project. (user, 2026-10-16, open-questions.md)
 
 ## Advisor expectations and grading criteria
 The advisor is a post-doc in digital humanities; there is no advisor in the company. All aspects have to be covered well. (user, 2026-10-16, open-questions.md)
