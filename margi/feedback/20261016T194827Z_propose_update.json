@@ -1,0 +1,75 @@
+{
+  "schema": "margi/record@1",
+  "run": {
+    "id": "20261016T194827Z-945818"
+  },
+  "command": "propose",
+  "scope": "update",
+  "summary": "Recorded start (2026-08-01) and submission date (2026-12-31) with the timeline block, and that the 0.9 threshold applies to the mean of all metrics. Two questions resolved; three remain, two new: how the 20-week plan fits the real dates, and how distance metrics map onto a similarity scale.",
+  "files_read": [
+    "PROPOSAL.md",
+    "thesis.config.yml",
+    "margi/docs/constraints.md",
+    "margi/docs/research-question.md",
+    "margi/docs/open-questions.md",
+    "margi/docs/CHANGELOG.md"
+  ],
+  "payload": {
+    "source": "PROPOSAL.md",
+    "fields_filled": [
+      "constraints.deadline"
+    ],
+    "fields_open": [
+      "field.key-debates",
+      "structure.length-targets"
+    ],
+    "questions_open": 3,
+    "questions_resolved": 2
+  },
+  "provenance": {
+    "head_sha": "96fbf79caf1141e7cd577c3b28098fb228075627",
+    "files": [
+      {
+        "path": "PROPOSAL.md",
+        "sha256": "2286c19dcac13ba5d437997132a65cf83864f99ee3b3c0a17d052a103cdb7e95",
+        "source": "HEAD"
+      },
+      {
+        "path": "thesis.config.yml",
+        "sha256": "010db0c2b318ecf95c1a4b867e0025e8eace94d8efe5c18aa9f0cadbcdbaa9c4",
+        "source": "HEAD"
+      },
+      {
+        "path": "margi/docs/constraints.md",
+        "sha256": "645c7c99f222d36354cd5df2b385ae2844db170b8df0d27f36dc03f2cbf4ab4a",
+        "source": "worktree"
+      },
+      {
+        "path": "margi/docs/research-question.md",
+        "sha256": "1ef0997c502bf5ac6cbb8da9a5f3f830b9244c13d5a1f627f6146fcae9702fdd",
+        "source": "worktree"
+      },
+      {
+        "path": "margi/docs/open-questions.md",
+        "sha256": "4e1fec09c3ccf96830b1c4db186b9325a5981760620af58ca70f261d97df51ec",
+        "source": "worktree"
+      },
+      {
+        "path": "margi/docs/CHANGELOG.md",
+        "sha256": "16910cc7a17ababa49de051533bc9b14d2622ad63f67eac59201dbc5f3e797a8",
+        "source": "worktree"
+      }
+    ],
+    "rubric": null,
+    "docs": {
+      "sha256": "1acd9a69fb91ff1fe5341915e07c9bdc68c09d4ef25607d8ade665428290221b",
+      "completeness": 0.929,
+      "low_confidence": false
+    },
+    "model": null,
+    "model_source": "none",
+    "harness": null,
+    "margi_version": "0.4.1",
+    "timestamp": "2026-10-16T19:48:27Z"
+  }
+}

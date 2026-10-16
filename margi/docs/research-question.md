@@ -9,7 +9,7 @@
 "How can an AI-based voicebot system for patients medical informed consent be developed and evaluated?" (src: PROPOSAL.md:19)
 
 ## Sub-questions and hypotheses
-No formal sub-questions or hypotheses. An answer to the research question is the description of the development process and a template of the steps used; the evaluation is the proof of the process' results. (user, 2026-10-16, open-questions.md) The process counts as having worked if the evaluation yields high similarity scores; success is similarity > 0.9, as set by the company. (user, 2026-10-16, open-questions.md)
+No formal sub-questions or hypotheses. An answer to the research question is the description of the development process and a template of the steps used; the evaluation is the proof of the process' results. (user, 2026-10-16, open-questions.md) The process counts as having worked if the evaluation yields high similarity scores; success is similarity > 0.9, as set by the company, applied to the mean for all metrics. (user, 2026-10-16, open-questions.md)
 
 ## Motivation and relevance
 - Doctors have little time (a couple of minutes) to explain planned procedures to patients without medical background, although German law obliges doctors to hold pre-procedure consultations for informed consent. Result: patients don't know what to expect or how to prepare, and have an unsatisfactory patient journey. (src: PROPOSAL.md:3)

@@ -9,7 +9,7 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-16T19:46:33Z",
+ "updated": "2026-10-16T19:48:27Z",
  "thesis_commit": {
   "sha": "e90196ba632c742fea10ed3b02cb47a52a627503",
   "date": "2026-10-16T21:03:08+02:00"
@@ -556,11 +556,11 @@ window.MARGI_DASH = {
    ]
   },
   "open_questions": [
-   "**Research question** (2026-10-16): The success threshold is similarity > 0.9. Which of the metrics (embedding similarity, TF-IDF, WER, LLM judge, ...) does it apply to, and is it per item, per node or on average?",
    "**Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as unknown currently.)",
-   "**Constraints** (2026-10-16): When do you expect to officially start and to submit? (Skipped for now.)"
+   "**Planned outline** (2026-10-16): The work plan spans 20 weeks, but the submission date is 2026-12-31 and the start was 2026-08-01. Do the week numbers still hold, and which weeks are already done?",
+   "**Research question** (2026-10-16): All metrics are averaged and judged against 0.9, yet WER and edit distance are distances, not similarities. How are all metrics brought onto one similarity scale?"
   ],
-  "challenge_aspect": "research-question",
+  "challenge_aspect": "field-and-related-work",
   "plan_written": true
  },
  "outline": {
@@ -577,6 +577,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-16T19:48:27Z",
+   "command": "propose",
+   "scope": "update",
+   "summary": "Recorded start (2026-08-01) and submission date (2026-12-31) with the timeline block, and that the 0.9 threshold applies to the mean of all metrics. Two questions resolved; three remain, two new: how the 20-week plan fits the real dates, and how distance metrics map onto a similarity scale.",
+   "model": null,
+   "file": "20261016T194827Z_propose_update.json"
+  },
   {
    "timestamp": "2026-10-16T19:46:33Z",
    "command": "propose",
@@ -611,9 +619,9 @@ window.MARGI_DASH = {
   }
  ],
  "timeline": {
-  "start": "2026-10-07",
-  "start_source": "commit",
-  "deadline": null,
+  "start": "2026-08-01",
+  "start_source": "doc",
+  "deadline": "2026-12-31",
   "length": null,
   "unit": "chars",
   "milestones": [],
@@ -643,18 +651,13 @@ window.MARGI_DASH = {
  },
  "next_steps": [
   {
-   "command": "/margi challenge deadline",
-   "reason": "No submission date documented yet.",
-   "source": "check"
-  },
-  {
    "command": "/margi outline",
    "reason": "No length snapshot yet.",
    "source": "check"
   },
   {
-   "command": "/margi challenge research-question",
-   "reason": "3 open questions in the project docs, most of them about research question.",
+   "command": "/margi challenge field-and-related-work",
+   "reason": "3 open questions in the project docs, most of them about field and related work.",
    "source": "check"
   }
  ],
@@ -677,12 +680,12 @@ window.MARGI_DASH = {
     "id": "docs",
     "title": "Document enough to grade (70% of the docs)",
     "done": true,
-    "command": "/margi challenge research-question"
+    "command": "/margi challenge field-and-related-work"
    },
    {
     "id": "deadline",
     "title": "Set the submission date",
-    "done": false,
+    "done": true,
     "command": "/margi challenge deadline"
    },
    {
@@ -700,7 +703,7 @@ window.MARGI_DASH = {
     "command": "/margi grade 5"
    }
   ],
-  "done": 3,
+  "done": 4,
   "total": 6
  }
 };

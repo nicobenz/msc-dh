@@ -2,6 +2,6 @@
 
 <!-- Unresolved points from propose runs and challenge sessions. One bullet each, with the date it was raised. -->
 
-- **Research question** (2026-10-16): The success threshold is similarity > 0.9. Which of the metrics (embedding similarity, TF-IDF, WER, LLM judge, ...) does it apply to, and is it per item, per node or on average?
 - **Field and related work** (2026-10-16): Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges? (Stated as unknown currently.)
-- **Constraints** (2026-10-16): When do you expect to officially start and to submit? (Skipped for now.)
+- **Planned outline** (2026-10-16): The work plan spans 20 weeks, but the submission date is 2026-12-31 and the start was 2026-08-01. Do the week numbers still hold, and which weeks are already done?
+- **Research question** (2026-10-16): All metrics are averaged and judged against 0.9, yet WER and edit distance are distances, not similarities. How are all metrics brought onto one similarity scale?
