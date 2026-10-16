@@ -3,16 +3,16 @@ window.MARGI_DASH = {
  "schema": "margi/dash@1",
  "margi_version": "0.4.1",
  "project": {
-  "title": "Working title",
+  "title": "msc-dh",
   "main": "main.typ",
   "format": "typst",
   "git": true,
   "section_problem": null
  },
- "updated": null,
+ "updated": "2026-10-16T19:09:39Z",
  "thesis_commit": {
-  "sha": "f2e4e573446cf7b79322ad2ad87d6cb61178e1f3",
-  "date": "2026-10-14T16:09:00+02:00"
+  "sha": "e90196ba632c742fea10ed3b02cb47a52a627503",
+  "date": "2026-10-16T21:03:08+02:00"
  },
  "rubric": {
   "id": "default",
@@ -109,194 +109,431 @@ window.MARGI_DASH = {
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/01-introduction.typ",
+    "chapters/c1-introduction.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/01-introduction.typ",
+     "file": "chapters/c1-introduction.typ",
      "start": 1,
-     "end": 1
+     "end": 8
     },
     {
      "file": "main.typ",
-     "start": 9,
-     "end": 9
+     "start": 93,
+     "end": 94
     }
    ],
    "readiness": {
     "ready": false,
     "words": 0,
     "list_share": 0.0,
-    "placeholder": false,
+    "placeholder": true,
     "markers": [],
     "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "1.1",
+   "title": "More Introduction",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c1-introduction.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c1-introduction.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "1.2",
+   "title": "Even More Introduction",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c1-introduction.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c1-introduction.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 93,
+     "end": 94
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
      "0 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "2",
-   "title": "Related Work",
+   "title": "Methodology",
    "level": 1,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/02-related-work.typ",
+    "chapters/c3-method.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/02-related-work.typ",
+     "file": "chapters/c3-method.typ",
      "start": 1,
-     "end": 1
+     "end": 8
     },
     {
      "file": "main.typ",
-     "start": 10,
-     "end": 10
+     "start": 95,
+     "end": 95
     }
    ],
    "readiness": {
     "ready": false,
     "words": 0,
     "list_share": 0.0,
-    "placeholder": false,
+    "placeholder": true,
     "markers": [],
     "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "2.1",
+   "title": "More Methodology",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c3-method.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c3-method.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "2.2",
+   "title": "Even More Methodology",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c3-method.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c3-method.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 95,
+     "end": 95
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
      "0 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "3",
-   "title": "Method",
+   "title": "Results",
    "level": 1,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/03-method.typ",
+    "chapters/c4-results.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/03-method.typ",
+     "file": "chapters/c4-results.typ",
      "start": 1,
-     "end": 1
+     "end": 8
     },
     {
      "file": "main.typ",
-     "start": 11,
-     "end": 11
+     "start": 96,
+     "end": 96
     }
    ],
    "readiness": {
     "ready": false,
     "words": 0,
     "list_share": 0.0,
-    "placeholder": false,
+    "placeholder": true,
     "markers": [],
     "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "3.1",
+   "title": "More Results",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c4-results.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c4-results.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "3.2",
+   "title": "Even More Results",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c4-results.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c4-results.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 96,
+     "end": 96
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
      "0 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "4",
-   "title": "Results",
+   "title": "Discussion",
    "level": 1,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/04-results.typ",
+    "chapters/c5-discussion.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/04-results.typ",
+     "file": "chapters/c5-discussion.typ",
      "start": 1,
-     "end": 1
+     "end": 8
     },
     {
      "file": "main.typ",
-     "start": 12,
-     "end": 12
+     "start": 97,
+     "end": 97
     }
    ],
    "readiness": {
     "ready": false,
     "words": 0,
     "list_share": 0.0,
-    "placeholder": false,
+    "placeholder": true,
     "markers": [],
     "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "4.1",
+   "title": "More Discussion",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c5-discussion.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c5-discussion.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "4.2",
+   "title": "Even More Discussion",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c5-discussion.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c5-discussion.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 97,
+     "end": 97
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
      "0 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "5",
-   "title": "Discussion",
-   "level": 1,
-   "chars": 0,
-   "share": 0.0,
-   "files": [
-    "chapters/05-discussion.typ",
-    "main.typ"
-   ],
-   "range": [
-    {
-     "file": "chapters/05-discussion.typ",
-     "start": 1,
-     "end": 1
-    },
-    {
-     "file": "main.typ",
-     "start": 13,
-     "end": 13
-    }
-   ],
-   "readiness": {
-    "ready": false,
-    "words": 0,
-    "list_share": 0.0,
-    "placeholder": false,
-    "markers": [],
-    "reasons": [
-     "0 words of running prose (needs 150)"
-    ]
-   }
-  },
-  {
-   "id": "6",
    "title": "Conclusion",
    "level": 1,
-   "chars": 0,
-   "share": 0.0,
+   "chars": 68,
+   "share": 1.0,
    "files": [
-    "chapters/06-conclusion.typ",
-    "main.typ"
+    "chapters/c6-conclusion.typ",
+    "main.typ",
+    "misc/appendix.typ",
+    "misc/declaration.typ"
    ],
    "range": [
     {
-     "file": "chapters/06-conclusion.typ",
+     "file": "chapters/c6-conclusion.typ",
      "start": 1,
-     "end": 1
+     "end": 2
     },
     {
      "file": "main.typ",
-     "start": 14,
-     "end": 15
+     "start": 98,
+     "end": 103
+    },
+    {
+     "file": "misc/appendix.typ",
+     "start": 1,
+     "end": 34
+    },
+    {
+     "file": "main.typ",
+     "start": 104,
+     "end": 106
+    },
+    {
+     "file": "misc/declaration.typ",
+     "start": 1,
+     "end": 33
     }
    ],
    "readiness": {
     "ready": false,
-    "words": 0,
+    "words": 10,
     "list_share": 0.0,
-    "placeholder": false,
+    "placeholder": true,
     "markers": [],
     "reasons": [
-     "0 words of running prose (needs 150)"
+     "contains placeholder text (lorem ipsum)",
+     "10 words of running prose (needs 150)"
     ]
    }
   }
@@ -306,59 +543,49 @@ window.MARGI_DASH = {
  "comments": [],
  "grade_precheck": "ask",
  "docs": {
-  "filled": 0,
+  "filled": 21,
   "required": 28,
-  "completeness": 0.0,
+  "completeness": 0.75,
   "threshold": 0.7,
   "missing": {
    "research-question.md": [
-    "Working title",
-    "Research question",
-    "Sub-questions and hypotheses",
-    "Motivation and relevance",
-    "Expected contribution",
-    "Scope and exclusions",
-    "Sources"
+    "Sub-questions and hypotheses"
    ],
    "dataset.md": [
-    "Description",
-    "Provenance and access",
-    "Selection criteria",
-    "Size and format",
-    "Preprocessing",
-    "Limitations and biases"
-   ],
-   "method.md": [
-    "Approach",
-    "Tools and implementation",
-    "Justification and alternatives considered",
-    "Evaluation and validation",
-    "Limitations"
+    "Preprocessing"
    ],
    "field.md": [
-    "Discipline and subfield",
-    "Key debates and schools",
-    "Key literature",
-    "Positioning of this thesis"
+    "Key debates and schools"
    ],
    "structure.md": [
-    "Planned outline",
     "Length targets"
    ],
    "constraints.md": [
-    "Deadline and milestones",
     "Length and format requirements",
     "Style and citation guide",
     "Advisor expectations and grading criteria"
    ]
   },
-  "open_questions": [],
-  "challenge_aspect": null,
-  "plan_written": false
+  "open_questions": [
+   "**Research question** (2026-10-16): The question asks \"how can\" a system be developed and evaluated. What would count as an answer, and which sub-questions or hypotheses structure the two parts?",
+   "**Method** (2026-10-16): The gold standard is treated as perfect, and similarity to it as the performance goal. How does high similarity to the gold items show that the voicebot's answers are correct and safe for patients?",
+   "**Method** (2026-10-16): How will the chosen metrics themselves be validated, for example against human judgement of the candidates, given that each has stated weaknesses?",
+   "**Data / corpus** (2026-10-16): How many gold items and nodes does the dataset contain, in what format, and what is the exemplary case?",
+   "**Data / corpus** (2026-10-16): Are you permitted to use, describe and publish the gold standard and the system outputs in the thesis (confidentiality, licensing, patient-related content)?",
+   "**Method** (2026-10-16): The 1000 outputs per item come from the same system under the same input. What varies between them (sampling temperature, speech input), and how do you account for this in the similarity scores?",
+   "**Method** (2026-10-16): The system is a speech-to-speech voicebot, but the evaluation compares text per node. Which part of the voice pipeline (speech recognition, speech output) is evaluated, if any?",
+   "**Method** (2026-10-16): Why graph-based dialogue with langgraph and fastapi rather than alternatives, and what is the \"DAG\" in the title as against a cyclic graph?",
+   "**Field and related work** (2026-10-16): The listed related work covers e-learning and language learning. Which literature covers voice or conversational agents in healthcare and informed consent, LLM evaluation against references, and LLM judges?",
+   "**Expected contribution** (2026-10-16): The evaluation pipeline is called domain-agnostic. What in the thesis will show that, given it is tested in one domain on one case?",
+   "**Planned outline** (2026-10-16): Which chapters of the thesis correspond to the sections named in the work plan, and how do they map to the current headings in the thesis files?",
+   "**Constraints** (2026-10-16): What are the submission date, the length limit and the formal requirements, and who are the advisors with what expectations?"
+  ],
+  "challenge_aspect": "method",
+  "plan_written": true
  },
  "outline": {
   "unit": "chars",
-  "total": 0,
+  "total": 68,
   "history": [],
   "changed": []
  },
@@ -369,7 +596,16 @@ window.MARGI_DASH = {
  },
  "todos": [],
  "todo_sync": false,
- "runs": [],
+ "runs": [
+  {
+   "timestamp": "2026-10-16T19:09:39Z",
+   "command": "propose",
+   "scope": "initial",
+   "summary": "Documented research question, motivation, contribution, dataset, method, metrics, tools, related work and a week-based plan from PROPOSAL.md. Gaps remain in sub-questions, dataset size and format, validation of metrics, calendar dates, length and format rules, and the mapping of the plan to thesis chapters. Twelve open questions are listed.",
+   "model": null,
+   "file": "20261016T190939Z_propose_initial.json"
+  }
+ ],
  "timeline": {
   "start": "2026-10-07",
   "start_source": "commit",
@@ -378,7 +614,7 @@ window.MARGI_DASH = {
   "unit": "chars",
   "milestones": [],
   "problem": null,
-  "reference": "2026-10-14",
+  "reference": "2026-10-16",
   "commits": [
    [
     "2026-10-07",
@@ -386,6 +622,10 @@ window.MARGI_DASH = {
    ],
    [
     "2026-10-14",
+    2
+   ],
+   [
+    "2026-10-16",
     1
    ]
   ],
@@ -399,13 +639,18 @@ window.MARGI_DASH = {
  },
  "next_steps": [
   {
-   "command": "/margi propose",
-   "reason": "Write your plan into PROPOSAL.md first; this turns it into project docs.",
+   "command": "/margi challenge deadline",
+   "reason": "No submission date documented yet.",
    "source": "check"
   },
   {
    "command": "/margi outline",
    "reason": "No length snapshot yet.",
+   "source": "check"
+  },
+  {
+   "command": "/margi challenge method",
+   "reason": "12 open questions in the project docs, most of them about method.",
    "source": "check"
   }
  ],
@@ -414,21 +659,21 @@ window.MARGI_DASH = {
    {
     "id": "plan",
     "title": "Write your plan into PROPOSAL.md and save it",
-    "done": false,
+    "done": true,
     "command": null
    },
    {
     "id": "propose",
     "title": "Turn the plan into project docs",
-    "done": false,
-    "date": null,
+    "done": true,
+    "date": "2026-10-16T19:09:39Z",
     "command": "/margi propose"
    },
    {
     "id": "docs",
     "title": "Document enough to grade (70% of the docs)",
-    "done": false,
-    "command": "/margi propose"
+    "done": true,
+    "command": "/margi challenge method"
    },
    {
     "id": "deadline",
@@ -448,10 +693,10 @@ window.MARGI_DASH = {
     "title": "Grade a first section",
     "done": false,
     "date": null,
-    "command": "/margi grade 1"
+    "command": "/margi grade 5"
    }
   ],
-  "done": 0,
+  "done": 3,
   "total": 6
  }
 };
