@@ -9,7 +9,7 @@
 "How can an AI-based voicebot system for patients medical informed consent be developed and evaluated?" (src: PROPOSAL.md:19)
 
 ## Sub-questions and hypotheses
-_not yet documented_
+No formal sub-questions or hypotheses. An answer to the research question is the description of the development process and a template of the steps used; the evaluation is the proof of the process' results. (user, 2026-10-16, open-questions.md)
 
 ## Motivation and relevance
 - Doctors have little time (a couple of minutes) to explain planned procedures to patients without medical background, although German law obliges doctors to hold pre-procedure consultations for informed consent. Result: patients don't know what to expect or how to prepare, and have an unsatisfactory patient journey. (src: PROPOSAL.md:3)
@@ -24,6 +24,7 @@ _not yet documented_
 ## Scope and exclusions
 - In scope: the voicebot as preparation for the in-person consultation; evaluation of the system's answers per node against the company's gold standard on one exemplary default case. (src: PROPOSAL.md:5, 11, 39)
 - Out of scope: topics outside the preparation scope, which the doctor should cover (guardrail design intent). (src: PROPOSAL.md:7)
+- Out of scope: testing the evaluation pipeline in other domains; it is only described in a future research section. (user, 2026-10-16, open-questions.md)
 - Out of scope: evaluation of more cases than the single default case (to be discussed in findings/conclusion); checking the quality of the gold standard dataset. (src: PROPOSAL.md:39, 45)
 - No evaluation of the first part (system building), only reasoning for design and architecture decisions. (src: PROPOSAL.md:43)
 

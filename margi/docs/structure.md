@@ -12,7 +12,7 @@ The proposal gives a 20-week work plan with the chapters/drafts written along th
 - Week 15: write findings section.
 - Weeks 16-20: finish remaining chapters, prepare submission.
 
-Sections named: introduction, previous work, architectural decisions, data collection, methods, findings. They are not yet matched to the thesis headings (Introduction, Methodology, Results, Discussion, Conclusion in the current files), so no `margi-structure` block is recorded.
+The outline is not set and will change during working and writing. (user, 2026-10-16, open-questions.md) Sections named: introduction, previous work, architectural decisions, data collection, methods, findings. They are not yet matched to the thesis headings (Introduction, Methodology, Results, Discussion, Conclusion in the current files), so no `margi-structure` block is recorded.
 
 ```yaml
 # margi-structure
