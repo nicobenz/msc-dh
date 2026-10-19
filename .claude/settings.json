@@ -15,7 +15,8 @@
       "Bash(git log:*)",
       "Bash(git diff:*)",
       "Bash(gh issue list:*)",
-      "Bash(gh issue view:*)"
+      "Bash(gh issue view:*)",
+      "Bash(uv run margi open:*)"
     ],
     "ask": [
       "Bash(uv run margi save:*)",

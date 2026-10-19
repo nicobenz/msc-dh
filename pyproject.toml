@@ -6,5 +6,5 @@ dependencies = []
 
 [dependency-groups]
 dev = [
-    "margi==0.4.1",
+    "margi==0.4.2",
 ]

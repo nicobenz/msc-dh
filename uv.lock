@@ -49,7 +49,7 @@ wheels = [
 
 [[package]]
 name = "margi"
-version = "0.4.1"
+version = "0.4.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -57,9 +57,9 @@ dependencies = [
     { name = "pypdfium2" },
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/38/86/95f1e5a356b9b6de0181e7356a275b24057d164d0aa8571f4447000a4122/margi-0.4.1.tar.gz", hash = "sha256:3ec7095efcdfafe05c7f3e14241b3c191c473e8fcf53db0291de73da5834bd63", size = 1107418, upload-time = "2026-10-14T14:05:41.752Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/03/27/c89acd2a11962455c64e337414ed1150b63e17a34b0d090f54343687f39a/margi-0.4.2.tar.gz", hash = "sha256:ca266303a2541ce4a36b51141f2e80e0a1b179fce1aeefa56979688c49836db3", size = 1113109, upload-time = "2026-10-19T14:22:22.513Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9e/3d/41838d3268b246e1012a69091c9e4eaaf5af5d78ac26878886275a49d17f/margi-0.4.1-py3-none-any.whl", hash = "sha256:56fd73b7f32e14ebd0e623d3a15c7ea3cd8d958c94de2d7975b3cb169d9acfac", size = 310400, upload-time = "2026-10-14T14:05:40.217Z" },
+    { url = "https://files.pythonhosted.org/packages/87/84/4c23057b74ffbb30916351c841fee1d9b1c71986ab777d1fbe1777725890/margi-0.4.2-py3-none-any.whl", hash = "sha256:64f23b3caeededb358ce846c3c84fe2811e7890df8060c14618b85282dba75b6", size = 315356, upload-time = "2026-10-19T14:22:20.838Z" },
 ]
 
 [[package]]
@@ -75,7 +75,7 @@ dev = [
 [package.metadata]
 
 [package.metadata.requires-dev]
-dev = [{ name = "margi", specifier = "==0.4.1" }]
+dev = [{ name = "margi", specifier = "==0.4.2" }]
 
 [[package]]
 name = "pypdfium2"
