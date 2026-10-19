@@ -6,7 +6,7 @@
 #let appendix-count = 1
 
 #let appendix-items = range(appendix-count).map(idx => {
-  let path = "appendix_items/a" + str(idx) + ".typ"
+  let path = "appendix-items/a" + str(idx) + ".typ"
   import path as mod
   (
     label: "A" + str(idx + 1),
