@@ -1,5 +1,3 @@
-#import "config.typ": submission_date
-
 #page(
   footer: none,
   header: none,
@@ -21,7 +19,7 @@
     align: bottom,
 
     [Ort: Leipzig],
-    [Datum: #submission_date],
+    [Datum: 31.12.2026],
     [Unterschrift: #box(width: 1fr, line(length: 100%, stroke: 0.5pt))],
   )
 ]

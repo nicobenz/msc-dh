@@ -1,2 +1,2 @@
 = Conclusion
-#lorem(500)
+#lorem(750)

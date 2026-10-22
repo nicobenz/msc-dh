@@ -18,13 +18,13 @@
   thesis-compliant: true,
 
   side-margins: (
-    left: 3.5cm,
-    right: 3.5cm,
-    top: 3.5cm,
-    bottom: 3.5cm,
+    left: 3cm,
+    right: 3cm,
+    top: 3cm,
+    bottom: 3cm,
   ),
   h1-spacing: 0.5em,
-  line-spacing: 0.65em,
+  line-spacing: 0.78em,
   font: "Lato",
   font-size: 11pt,
   hyphenate: false,
