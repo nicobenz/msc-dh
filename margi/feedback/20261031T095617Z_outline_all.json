@@ -1,0 +1,438 @@
+{
+  "schema": "margi/record@1",
+  "run": {
+    "id": "20261031T095617Z-14afe2"
+  },
+  "command": "outline",
+  "scope": "all",
+  "summary": "3625 chars across 44 sections",
+  "files_read": [
+    "chapters/c1-introduction.typ",
+    "chapters/c10-intro-eval.typ",
+    "chapters/c11-lit-eval.typ",
+    "chapters/c12-data.typ",
+    "chapters/c13-method.typ",
+    "chapters/c14-results.typ",
+    "chapters/c15-discussion-evaluation.typ",
+    "chapters/c16-discussion.typ",
+    "chapters/c17-conclusion.typ",
+    "chapters/c2-background.typ",
+    "chapters/c3-intro-design.typ",
+    "chapters/c4-lit-design.typ",
+    "chapters/c5-requirements.typ",
+    "chapters/c6-system-design.typ",
+    "chapters/c7-implementation.typ",
+    "chapters/c8-feedback.typ",
+    "chapters/c9-discussion-design.typ",
+    "main.typ",
+    "misc/appendix.typ",
+    "misc/declaration.typ"
+  ],
+  "payload": {
+    "unit": "chars",
+    "total": 3625,
+    "front_matter": 0,
+    "sections": [
+      {
+        "id": "1",
+        "title": "Introduction",
+        "chars": 3503,
+        "share": 0.9663,
+        "children": [
+          {
+            "id": "1.1",
+            "title": "Problem",
+            "chars": 440,
+            "share": 0.1214
+          },
+          {
+            "id": "1.2",
+            "title": "Research questions",
+            "chars": 705,
+            "share": 0.1945
+          },
+          {
+            "id": "1.3",
+            "title": "Relation to Digital Humanities",
+            "chars": 287,
+            "share": 0.0792
+          },
+          {
+            "id": "1.4",
+            "title": "Thieme Compliance",
+            "chars": 782,
+            "share": 0.2157
+          },
+          {
+            "id": "1.5",
+            "title": "Thesis Structure",
+            "chars": 427,
+            "share": 0.1178
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Background and Foundations",
+        "chars": 34,
+        "share": 0.0094,
+        "children": [
+          {
+            "id": "2.1",
+            "title": "Informed Consent in German Law",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "2.2",
+            "title": "Large Language Models",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "2.3",
+            "title": "Thieme Compliance's Approach to Digital Products",
+            "chars": 34,
+            "share": 0.0094
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Introduction",
+        "chars": 0,
+        "share": 0.0
+      },
+      {
+        "id": "4",
+        "title": "Related Work",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "4.1",
+            "title": "Multi-modal LLMs",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "4.2",
+            "title": "Conversational Agents",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Requirements",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "5.1",
+            "title": "Functional Scope",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "5.2",
+            "title": "Company Constraints",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "title": "System Design",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "6.1",
+            "title": "Data Sources",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "6.2",
+            "title": "Graph Structure",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "6.3",
+            "title": "Guardrails",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Implementation",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "7.1",
+            "title": "Tools and Frameworks",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "7.2",
+            "title": "Deployment and Access",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Feedback and Iterations",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "8.1",
+            "title": "Internal Testing",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "8.2",
+            "title": "Refinement for User Tests",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Interim Discussion",
+        "chars": 20,
+        "share": 0.0055
+      },
+      {
+        "id": "10",
+        "title": "Introduction",
+        "chars": 0,
+        "share": 0.0
+      },
+      {
+        "id": "11",
+        "title": "Related Work",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "11.1",
+            "title": "Lexical Metrics",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "11.2",
+            "title": "Embeddings",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "11.3",
+            "title": "LLM-as-a-Judge",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Data",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "12.1",
+            "title": "Gold Standard Dataset",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "12.2",
+            "title": "Limitations",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Methodology",
+        "chars": 0,
+        "share": 0.0,
+        "children": [
+          {
+            "id": "13.1",
+            "title": "Lexical Metrics",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "13.2",
+            "title": "Embeddings",
+            "chars": 0,
+            "share": 0.0
+          },
+          {
+            "id": "13.3",
+            "title": "LLM Judges",
+            "chars": 0,
+            "share": 0.0
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Results",
+        "chars": 0,
+        "share": 0.0
+      },
+      {
+        "id": "15",
+        "title": "Interim Discussion",
+        "chars": 0,
+        "share": 0.0
+      },
+      {
+        "id": "16",
+        "title": "Discussion",
+        "chars": 0,
+        "share": 0.0
+      },
+      {
+        "id": "17",
+        "title": "Conclusion",
+        "chars": 68,
+        "share": 0.0188
+      }
+    ]
+  },
+  "provenance": {
+    "head_sha": "42246c0219e7eea2dc71e69d1f3f9558a0773186",
+    "files": [
+      {
+        "path": "chapters/c1-introduction.typ",
+        "sha256": "b05f225b686dd7f6786c64de8fde8868db583991b6d45cd94e7cc25b94a36dd8",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c10-intro-eval.typ",
+        "sha256": "02def6f03fcc23a19fae9655f22fa62f17c031a934581b766a475e6a140727e3",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c11-lit-eval.typ",
+        "sha256": "41196ad9efa2266e50546df3d0da75bdb322a75e7e7886198d3b9b2fcbc5d113",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c12-data.typ",
+        "sha256": "7831c1c4cae84374458390e112d66df51d3f5aab3e0afc1907acbadb8e16929a",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c13-method.typ",
+        "sha256": "75575e287dfe992b26672d5b31d613c8e3b354ea4902efdef7fc97660b31b6c8",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c14-results.typ",
+        "sha256": "536f5432b9c669d50b48bbc7f640faf289997b7cd809bfa066bb794637cd2032",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c15-discussion-evaluation.typ",
+        "sha256": "cf5442e9af7ab707b0a3d74ea9aa244159c1043a711e2545b3f100ea491c29f1",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c16-discussion.typ",
+        "sha256": "72e89d5d9ef1ab81991e38de06c3a4030d35727f97c51cc7339a8fd7086675f4",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c17-conclusion.typ",
+        "sha256": "13d31ab9a00227f329f1cbc52e780f450d8c41f7876b18f33edcabf4ffb97405",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c2-background.typ",
+        "sha256": "4bc6e065b75dcf8e3410cdffa58d58062aab4ad9d804e631739aa55beb0bafb9",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c3-intro-design.typ",
+        "sha256": "02def6f03fcc23a19fae9655f22fa62f17c031a934581b766a475e6a140727e3",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c4-lit-design.typ",
+        "sha256": "c27ed269b6944a32605a9cf672d173eac3042dcb6fea880a610bb0b7556faa0f",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c5-requirements.typ",
+        "sha256": "65b7fbddb426dbab08372ea579b69f0349c57dfa92f762583e6af4e48a8ea4cc",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c6-system-design.typ",
+        "sha256": "dd531ce36286fadcb58e526e09ecbae0a939cbd17a8060327f4f2b695b94eefc",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c7-implementation.typ",
+        "sha256": "3f84849c4e139141220c81e0d1df0e75c73e6ec003addc5a112f2f01ddd8d208",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c8-feedback.typ",
+        "sha256": "7bc02b4426f3cd810a0c4ceed29029cc9cef979173e8ae92345f33f5788e8df2",
+        "source": "HEAD"
+      },
+      {
+        "path": "chapters/c9-discussion-design.typ",
+        "sha256": "cf5442e9af7ab707b0a3d74ea9aa244159c1043a711e2545b3f100ea491c29f1",
+        "source": "HEAD"
+      },
+      {
+        "path": "main.typ",
+        "sha256": "e126680d8ca002695af76e82abaf35131242fc864361ec5e43ee9a6072671613",
+        "source": "HEAD"
+      },
+      {
+        "path": "misc/appendix.typ",
+        "sha256": "cf62e97b347c28ff8a23d7fe2288945a4f1cfe5d9b29f853d2f2731b5cae1582",
+        "source": "HEAD"
+      },
+      {
+        "path": "misc/declaration.typ",
+        "sha256": "23fbc2d929ef4357cbe54550e20da8e21f4cadccdd6f1dfdae4824900576bb7c",
+        "source": "HEAD"
+      }
+    ],
+    "rubric": null,
+    "docs": {
+      "sha256": "1acd9a69fb91ff1fe5341915e07c9bdc68c09d4ef25607d8ade665428290221b",
+      "completeness": 0.929,
+      "low_confidence": false
+    },
+    "model": null,
+    "model_source": "none",
+    "harness": null,
+    "margi_version": "0.4.2",
+    "timestamp": "2026-10-31T09:56:17Z"
+  }
+}

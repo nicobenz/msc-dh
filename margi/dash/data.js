@@ -9,7 +9,7 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-31T09:55:33Z",
+ "updated": "2026-10-31T09:56:17Z",
  "thesis_commit": {
   "sha": "00bc5643432b5f17ad1e6d4473e54a9f8a5f9e09",
   "date": "2026-10-31T10:54:41+01:00"
@@ -1961,7 +1961,12 @@ window.MARGI_DASH = {
  "outline": {
   "unit": "chars",
   "total": 3625,
-  "history": [],
+  "history": [
+   {
+    "timestamp": "2026-10-31T09:56:17Z",
+    "total": 3625
+   }
+  ],
   "changed": []
  },
  "literature": {
@@ -1972,6 +1977,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-31T09:56:17Z",
+   "command": "outline",
+   "scope": "all",
+   "summary": "3625 chars across 44 sections",
+   "model": null,
+   "file": "20261031T095617Z_outline_all.json"
+  },
   {
    "timestamp": "2026-10-31T09:55:33Z",
    "command": "grade",
@@ -2086,11 +2099,6 @@ window.MARGI_DASH = {
    "timestamp": "2026-10-31T09:55:33Z"
   },
   {
-   "command": "/margi outline",
-   "reason": "No length snapshot yet.",
-   "source": "check"
-  },
-  {
    "command": "/margi challenge field-and-related-work",
    "reason": "3 open questions in the project docs, most of them about field and related work.",
    "source": "check"
@@ -2126,8 +2134,8 @@ window.MARGI_DASH = {
    {
     "id": "outline",
     "title": "Take a first length snapshot",
-    "done": false,
-    "date": null,
+    "done": true,
+    "date": "2026-10-31T09:56:17Z",
     "command": "/margi outline"
    },
    {
@@ -2138,7 +2146,7 @@ window.MARGI_DASH = {
     "command": "/margi grade 1"
    }
   ],
-  "done": 5,
+  "done": 6,
   "total": 6
  }
 };
