@@ -9,10 +9,10 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-31T09:56:17Z",
+ "updated": "2026-10-31T10:07:23Z",
  "thesis_commit": {
-  "sha": "00bc5643432b5f17ad1e6d4473e54a9f8a5f9e09",
-  "date": "2026-10-31T10:54:41+01:00"
+  "sha": "f77c060117dc268502023244a1d22a64312cd0ce",
+  "date": "2026-10-31T11:06:48+01:00"
  },
  "rubric": {
   "id": "default",
@@ -106,8 +106,8 @@ window.MARGI_DASH = {
    "id": "1",
    "title": "Introduction",
    "level": 1,
-   "chars": 3503,
-   "share": 0.9663,
+   "chars": 3427,
+   "share": 0.9656,
    "files": [
     "chapters/c1-introduction.typ",
     "main.typ"
@@ -116,7 +116,7 @@ window.MARGI_DASH = {
     {
      "file": "chapters/c1-introduction.typ",
      "start": 1,
-     "end": 29
+     "end": 25
     },
     {
      "file": "main.typ",
@@ -126,7 +126,7 @@ window.MARGI_DASH = {
    ],
    "readiness": {
     "ready": true,
-    "words": 548,
+    "words": 540,
     "list_share": 0.0,
     "placeholder": false,
     "markers": [],
@@ -138,7 +138,7 @@ window.MARGI_DASH = {
    "title": "Problem",
    "level": 2,
    "chars": 440,
-   "share": 0.1214,
+   "share": 0.124,
    "files": [
     "chapters/c1-introduction.typ"
    ],
@@ -164,8 +164,8 @@ window.MARGI_DASH = {
    "id": "1.2",
    "title": "Research questions",
    "level": 2,
-   "chars": 705,
-   "share": 0.1945,
+   "chars": 629,
+   "share": 0.1772,
    "files": [
     "chapters/c1-introduction.typ"
    ],
@@ -173,17 +173,17 @@ window.MARGI_DASH = {
     {
      "file": "chapters/c1-introduction.typ",
      "start": 9,
-     "end": 21
+     "end": 17
     }
    ],
    "readiness": {
     "ready": false,
-    "words": 110,
+    "words": 102,
     "list_share": 0.0,
     "placeholder": false,
     "markers": [],
     "reasons": [
-     "110 words of running prose (needs 150)"
+     "102 words of running prose (needs 150)"
     ]
    }
   },
@@ -192,15 +192,15 @@ window.MARGI_DASH = {
    "title": "Relation to Digital Humanities",
    "level": 2,
    "chars": 287,
-   "share": 0.0792,
+   "share": 0.0809,
    "files": [
     "chapters/c1-introduction.typ"
    ],
    "range": [
     {
      "file": "chapters/c1-introduction.typ",
-     "start": 22,
-     "end": 24
+     "start": 18,
+     "end": 20
     }
    ],
    "readiness": {
@@ -219,15 +219,15 @@ window.MARGI_DASH = {
    "title": "Thieme Compliance",
    "level": 2,
    "chars": 782,
-   "share": 0.2157,
+   "share": 0.2203,
    "files": [
     "chapters/c1-introduction.typ"
    ],
    "range": [
     {
      "file": "chapters/c1-introduction.typ",
-     "start": 25,
-     "end": 27
+     "start": 21,
+     "end": 23
     }
    ],
    "readiness": {
@@ -246,7 +246,7 @@ window.MARGI_DASH = {
    "title": "Thesis Structure",
    "level": 2,
    "chars": 427,
-   "share": 0.1178,
+   "share": 0.1203,
    "files": [
     "chapters/c1-introduction.typ",
     "main.typ"
@@ -254,8 +254,8 @@ window.MARGI_DASH = {
    "range": [
     {
      "file": "chapters/c1-introduction.typ",
-     "start": 28,
-     "end": 29
+     "start": 24,
+     "end": 25
     },
     {
      "file": "main.typ",
@@ -279,7 +279,7 @@ window.MARGI_DASH = {
    "title": "Background and Foundations",
    "level": 1,
    "chars": 34,
-   "share": 0.0094,
+   "share": 0.0096,
    "files": [
     "chapters/c2-background.typ",
     "main.typ"
@@ -369,7 +369,7 @@ window.MARGI_DASH = {
    "title": "Thieme Compliance's Approach to Digital Products",
    "level": 2,
    "chars": 34,
-   "share": 0.0094,
+   "share": 0.0096,
    "files": [
     "chapters/c2-background.typ",
     "main.typ"
@@ -945,7 +945,7 @@ window.MARGI_DASH = {
    "title": "Interim Discussion",
    "level": 1,
    "chars": 20,
-   "share": 0.0055,
+   "share": 0.0056,
    "files": [
     "chapters/c9-discussion-design.typ",
     "main.typ"
@@ -1459,7 +1459,7 @@ window.MARGI_DASH = {
    "title": "Conclusion",
    "level": 1,
    "chars": 68,
-   "share": 0.0188,
+   "share": 0.0192,
    "files": [
     "chapters/c17-conclusion.typ",
     "main.typ",
@@ -1714,10 +1714,81 @@ window.MARGI_DASH = {
     "low_confidence": false,
     "model": "claude-sonnet-5-5",
     "rubric": "1.0",
-    "changed": [],
+    "changed": [
+     "chapters/c1-introduction.typ"
+    ],
     "override": false,
     "readiness_reasons": [],
     "saved": "2026-10-31T10:54:41+01:00"
+   },
+   {
+    "run": "20261031T100723Z-cedfa3",
+    "file": "20261031T100723Z_grade_1.json",
+    "timestamp": "2026-10-31T10:07:23Z",
+    "scope": "1",
+    "summary": "Second grade of the Introduction. The only substantive change since the first grade is in 1.2: the main research question is now stated, and the second question was folded into the description of two parts. None of the ten earlier comments is resolved. The stated question covers design and implementation only, while the documented research question covers development and evaluation, and the text still speaks of a 'second subquestion'. Scholarship is scored higher than in the first grade: an introduction is not expected to review literature, but it still lacks any positioning against existing work. The `method` category is omitted because an introduction does not carry a method description.",
+    "scores": {
+     "alignment": {
+      "score": 2,
+      "max": 5,
+      "rationale": "A main research question is now stated, which is progress. It differs from the documented one: it names design and implementation but not evaluation, and the text still refers to a second subquestion. The voicebot and the contribution remain absent.",
+      "comment_ids": [
+       "20261031T100723Z-cedfa3:c1"
+      ]
+     },
+     "argument": {
+      "score": 2,
+      "max": 5,
+      "rationale": "Unchanged: the step from the problem to the proposed solution is still missing, and the Digital Humanities placement is asserted.",
+      "comment_ids": []
+     },
+     "evidence": {
+      "score": 2,
+      "max": 5,
+      "rationale": "Unchanged: the legal duty, leaflet comprehension and consultation time are still stated without sources.",
+      "comment_ids": []
+     },
+     "scholarship": {
+      "score": 2,
+      "max": 5,
+      "rationale": "A full review belongs in the related work chapters, so the lack of one is not the issue. What is missing is a short positioning against existing work and a statement of how this thesis differs.",
+      "comment_ids": []
+     },
+     "structure": {
+      "score": 3,
+      "max": 5,
+      "rationale": "The two-part split is still announced in 1.2 and picked up in 1.5. The roadmap names no chapters, and the company section is still long.",
+      "comment_ids": []
+     },
+     "style": {
+      "score": 2,
+      "max": 5,
+      "rationale": "The spelling errors flagged before are all still there, and 'subquestion', 'part' and 'system' are used for different things.",
+      "comment_ids": []
+     }
+    },
+    "comments": [
+     {
+      "id": "20261031T100723Z-cedfa3:c1",
+      "category": "alignment",
+      "severity": "note",
+      "body": "Stating the main research question as its own sentence gives the chapter an anchor it lacked. Check it against the documented question, which includes the evaluation of the system.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 10,
+       "line_end": 10,
+       "quote": "The main research question for this thesis is:",
+       "anchor_status": "ok"
+      }
+     }
+    ],
+    "low_confidence": false,
+    "model": "claude-sonnet-5-5",
+    "rubric": "1.0",
+    "changed": [],
+    "override": false,
+    "readiness_reasons": [],
+    "saved": "2026-10-31T11:06:48+01:00"
    }
   ]
  },
@@ -1726,7 +1797,7 @@ window.MARGI_DASH = {
   {
    "ref": "c1",
    "id": "20261031T095533Z-2d78c9:c1",
-   "section": "1.2",
+   "section": "1",
    "severity": "major",
    "category": "alignment",
    "body": "The chapter says the main research question will be divided into two subquestions, but the main question is never stated. The project docs record one research question and explicitly no formal subquestions or hypotheses. Either the docs or the chapter is out of date; the reader currently gets two questions and no overarching one to which the thesis answers.",
@@ -1741,10 +1812,18 @@ window.MARGI_DASH = {
     "line_start": 10,
     "line_end": 10
    },
-   "signal": "unchanged",
+   "signal": "changed",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The question is now stated, but it covers design and implementation only, while the documented research question includes evaluation. Line 16 still speaks of a 'second subquestion' that is no longer stated (chapters/c1-introduction.typ:10-16).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c2",
@@ -1767,7 +1846,15 @@ window.MARGI_DASH = {
    "signal": "unchanged",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The legal obligation is still asserted without a source (chapters/c1-introduction.typ:4).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c3",
@@ -1790,7 +1877,15 @@ window.MARGI_DASH = {
    "signal": "unchanged",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The two claims in the Problem section are still unsourced, and nothing links the problem to a voice-based system (chapters/c1-introduction.typ:7).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c4",
@@ -1804,7 +1899,15 @@ window.MARGI_DASH = {
    "signal": null,
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The voicebot, the contribution and the scope limits are still not mentioned anywhere in the chapter.",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c5",
@@ -1821,13 +1924,21 @@ window.MARGI_DASH = {
     "anchor_status": "ok"
    },
    "now": {
-    "line_start": 23,
-    "line_end": 23
+    "line_start": 19,
+    "line_end": 19
    },
-   "signal": "unchanged",
+   "signal": "moved",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The Digital Humanities section is unchanged and still does not argue its placement (chapters/c1-introduction.typ:18-19).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c6",
@@ -1841,7 +1952,15 @@ window.MARGI_DASH = {
    "signal": null,
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "Not disputed in a respond. Narrowed since the first grade: a literature review is not expected here, but a short positioning against existing work and the gap this thesis fills is still missing.",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c7",
@@ -1858,13 +1977,21 @@ window.MARGI_DASH = {
     "anchor_status": "ok"
    },
    "now": {
-    "line_start": 29,
-    "line_end": 29
+    "line_start": 25,
+    "line_end": 25
    },
-   "signal": "unchanged",
+   "signal": "moved",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The roadmap still names two parts and no chapters (chapters/c1-introduction.typ:25).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c8",
@@ -1881,13 +2008,21 @@ window.MARGI_DASH = {
     "anchor_status": "ok"
    },
    "now": {
-    "line_start": 26,
-    "line_end": 26
+    "line_start": 22,
+    "line_end": 22
    },
-   "signal": "unchanged",
+   "signal": "moved",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "The company section is unchanged and still does not connect to the constraints on scope, stack and budget (chapters/c1-introduction.typ:22).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c9",
@@ -1904,18 +2039,26 @@ window.MARGI_DASH = {
     "anchor_status": "ok"
    },
    "now": {
-    "line_start": 26,
-    "line_end": 26
+    "line_start": 22,
+    "line_end": 22
    },
-   "signal": "unchanged",
+   "signal": "moved",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "All five flagged spellings are still present (chapters/c1-introduction.typ:2, 4, 22).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   },
   {
    "ref": "c10",
    "id": "20261031T095533Z-2d78c9:c11",
-   "section": "1.2",
+   "section": "1",
    "severity": "minor",
    "category": "style",
    "body": "Terminology drifts: the second subquestion is called 'this section', the first is called a 'subquestion' and a 'part', and the system is called 'prototype', 'digital product' and 'system'. Phrases such as 'in the modern times' and 'rather short and superficial' are vague. Pick one term per object and keep it across the thesis.",
@@ -1930,10 +2073,18 @@ window.MARGI_DASH = {
     "line_start": 20,
     "line_end": 20
    },
-   "signal": "unchanged",
+   "signal": "changed",
    "state": "open",
    "created": "2026-10-31T09:55:33Z",
-   "history": []
+   "history": [
+    {
+     "by": "margi",
+     "value": "open",
+     "reason": "'This section' was replaced, but 'subquestion' and 'part' still name different things and 'in the modern times' remains (chapters/c1-introduction.typ:2, 14-16).",
+     "timestamp": "2026-10-31T10:07:23Z",
+     "record": "20261031T100723Z_grade_1.json"
+    }
+   ]
   }
  ],
  "grade_precheck": "ask",
@@ -1960,14 +2111,16 @@ window.MARGI_DASH = {
  },
  "outline": {
   "unit": "chars",
-  "total": 3625,
+  "total": 3549,
   "history": [
    {
     "timestamp": "2026-10-31T09:56:17Z",
     "total": 3625
    }
   ],
-  "changed": []
+  "changed": [
+   "chapters/c1-introduction.typ"
+  ]
  },
  "literature": {
   "rated": [],
@@ -1977,6 +2130,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-31T10:07:23Z",
+   "command": "grade",
+   "scope": "1",
+   "summary": "Second grade of the Introduction. The only substantive change since the first grade is in 1.2: the main research question is now stated, and the second question was folded into the description of two parts. None of the ten earlier comments is resolved. The stated question covers design and implementation only, while the documented research question covers development and evaluation, and the text still speaks of a 'second subquestion'. Scholarship is scored higher than in the first grade: an introduction is not expected to review literature, but it still lacks any positioning against existing work. The `method` category is omitted because an introduction does not carry a method description.",
+   "model": "claude-sonnet-5-5",
+   "file": "20261031T100723Z_grade_1.json"
+  },
   {
    "timestamp": "2026-10-31T09:56:17Z",
    "command": "outline",
@@ -2066,7 +2227,7 @@ window.MARGI_DASH = {
    ],
    [
     "2026-10-31",
-    1
+    2
    ]
   ],
   "events": [
@@ -2075,6 +2236,13 @@ window.MARGI_DASH = {
     "kind": "grade",
     "section": "1",
     "file": "20261031T095533Z_grade_1.json",
+    "low_confidence": false
+   },
+   {
+    "timestamp": "2026-10-31T10:07:23Z",
+    "kind": "grade",
+    "section": "1",
+    "file": "20261031T100723Z_grade_1.json",
     "low_confidence": false
    }
   ]
@@ -2088,15 +2256,14 @@ window.MARGI_DASH = {
  "next_steps": [
   {
    "command": "/margi challenge research question",
-   "reason": "The chapter's subquestion framing conflicts with the documented single research question.",
+   "reason": "The research question in the chapter now differs from the documented one, which includes the evaluation.",
    "source": "session",
-   "timestamp": "2026-10-31T09:55:33Z"
+   "timestamp": "2026-10-31T10:07:23Z"
   },
   {
-   "command": "/margi read",
-   "reason": "The introduction cites no literature and the docs record that healthcare sources are still missing.",
-   "source": "session",
-   "timestamp": "2026-10-31T09:55:33Z"
+   "command": "/margi outline",
+   "reason": "The text changed since the last length snapshot.",
+   "source": "check"
   },
   {
    "command": "/margi challenge field-and-related-work",
