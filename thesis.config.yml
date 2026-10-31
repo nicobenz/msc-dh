@@ -12,7 +12,7 @@ protect_thesis: true
 sections: {}
 #  prior-work: { heading: "Prior Work" }
 
-count: chars                 # chars | chars_no_spaces | words (used by `/margi outline`)
+count: words                 # chars | chars_no_spaces | words (used by `/margi outline`)
 
 propose:
   source: PROPOSAL.md        # your plan in your own words (override with --from)
