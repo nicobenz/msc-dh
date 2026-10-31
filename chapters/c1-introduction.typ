@@ -7,17 +7,13 @@ In the German healthcare system, medical doctors are required by law to do infor
 Even though medical informed consent leaflet exists, these text are often difficult to understand as well, which makes them not ideal to patients to read without any possibility to ask questions or request clarification. Medical doctors also don't have a high amount of time for their patients which results in rather short and superficial consultations that do not result in a good understanding of the planned procedure for the patients.
 
 == Research questions
-Since this is an applied science project, the main research question will be divided in two subquestions. The subquestion is:
+The main research question for this thesis is:
 
 _How can a digital product prototype for LLM-based informed patient content be designed and implemented?_
 
-This subquestion focusses mainly on the applied and technical part, dealing more with design regards, software development and DevOps.
+This research question falls easily into two main parts that each deal with one aspect of the research question. The first part focusses mainly on the applied and technical side of things, dealing more with design regards, software development and DevOps.
 
-The second subquestion builds on top of the results of the first subquestion. Under the question
-
-_How can an LLM-based system for patient information be evaluated to show quality levels?_
-
-this section is closer to scientific processes and utilises methods from NLP and generative AI to evaluate quality of the system build in the first part.
+The second subquestion builds on top of the results of the first subquestion. It is closer to scientific processes and utilises methods from NLP and generative AI to evaluate quality of the system build in the first part.
 
 == Relation to Digital Humanities
 Digital Humanities is the traditionally the application of methods from computer science in the humanities. This project is on surface level closer to computer science or medical informatics, but on closer inspection it falls into the area of interaction between society and technology.
