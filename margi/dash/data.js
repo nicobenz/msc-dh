@@ -9,10 +9,10 @@ window.MARGI_DASH = {
   "git": true,
   "section_problem": null
  },
- "updated": "2026-10-16T19:48:27Z",
+ "updated": "2026-10-31T09:55:33Z",
  "thesis_commit": {
-  "sha": "0827701d1b8ffa8bb5c24617e7ac86f74fbcf778",
-  "date": "2026-10-19T16:27:01+02:00"
+  "sha": "00bc5643432b5f17ad1e6d4473e54a9f8a5f9e09",
+  "date": "2026-10-31T10:54:41+01:00"
  },
  "rubric": {
   "id": "default",
@@ -106,8 +106,8 @@ window.MARGI_DASH = {
    "id": "1",
    "title": "Introduction",
    "level": 1,
-   "chars": 0,
-   "share": 0.0,
+   "chars": 3503,
+   "share": 0.9663,
    "files": [
     "chapters/c1-introduction.typ",
     "main.typ"
@@ -116,60 +116,137 @@ window.MARGI_DASH = {
     {
      "file": "chapters/c1-introduction.typ",
      "start": 1,
-     "end": 8
+     "end": 29
     },
     {
      "file": "main.typ",
-     "start": 93,
-     "end": 94
+     "start": 9,
+     "end": 9
     }
    ],
    "readiness": {
-    "ready": false,
-    "words": 0,
+    "ready": true,
+    "words": 548,
     "list_share": 0.0,
-    "placeholder": true,
+    "placeholder": false,
     "markers": [],
-    "reasons": [
-     "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
-    ]
+    "reasons": []
    }
   },
   {
    "id": "1.1",
-   "title": "More Introduction",
+   "title": "Problem",
    "level": 2,
-   "chars": 0,
-   "share": 0.0,
+   "chars": 440,
+   "share": 0.1214,
    "files": [
     "chapters/c1-introduction.typ"
    ],
    "range": [
     {
      "file": "chapters/c1-introduction.typ",
-     "start": 4,
-     "end": 6
+     "start": 6,
+     "end": 8
     }
    ],
    "readiness": {
     "ready": false,
-    "words": 0,
+    "words": 70,
     "list_share": 0.0,
-    "placeholder": true,
+    "placeholder": false,
     "markers": [],
     "reasons": [
-     "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
+     "70 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "1.2",
-   "title": "Even More Introduction",
+   "title": "Research questions",
    "level": 2,
-   "chars": 0,
-   "share": 0.0,
+   "chars": 705,
+   "share": 0.1945,
+   "files": [
+    "chapters/c1-introduction.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c1-introduction.typ",
+     "start": 9,
+     "end": 21
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 110,
+    "list_share": 0.0,
+    "placeholder": false,
+    "markers": [],
+    "reasons": [
+     "110 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "1.3",
+   "title": "Relation to Digital Humanities",
+   "level": 2,
+   "chars": 287,
+   "share": 0.0792,
+   "files": [
+    "chapters/c1-introduction.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c1-introduction.typ",
+     "start": 22,
+     "end": 24
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 43,
+    "list_share": 0.0,
+    "placeholder": false,
+    "markers": [],
+    "reasons": [
+     "43 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "1.4",
+   "title": "Thieme Compliance",
+   "level": 2,
+   "chars": 782,
+   "share": 0.2157,
+   "files": [
+    "chapters/c1-introduction.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c1-introduction.typ",
+     "start": 25,
+     "end": 27
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 121,
+    "list_share": 0.0,
+    "placeholder": false,
+    "markers": [],
+    "reasons": [
+     "121 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "1.5",
+   "title": "Thesis Structure",
+   "level": 2,
+   "chars": 427,
+   "share": 0.1178,
    "files": [
     "chapters/c1-introduction.typ",
     "main.typ"
@@ -177,73 +254,72 @@ window.MARGI_DASH = {
    "range": [
     {
      "file": "chapters/c1-introduction.typ",
-     "start": 7,
-     "end": 8
+     "start": 28,
+     "end": 29
     },
     {
      "file": "main.typ",
-     "start": 93,
-     "end": 94
+     "start": 9,
+     "end": 9
     }
    ],
    "readiness": {
     "ready": false,
-    "words": 0,
+    "words": 68,
     "list_share": 0.0,
-    "placeholder": true,
+    "placeholder": false,
     "markers": [],
     "reasons": [
-     "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
+     "68 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "2",
-   "title": "Methodology",
+   "title": "Background and Foundations",
    "level": 1,
-   "chars": 0,
-   "share": 0.0,
+   "chars": 34,
+   "share": 0.0094,
    "files": [
-    "chapters/c3-method.typ",
+    "chapters/c2-background.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/c3-method.typ",
+     "file": "chapters/c2-background.typ",
      "start": 1,
-     "end": 8
+     "end": 11
     },
     {
      "file": "main.typ",
-     "start": 95,
-     "end": 95
+     "start": 10,
+     "end": 12
     }
    ],
    "readiness": {
     "ready": false,
-    "words": 0,
+    "words": 5,
     "list_share": 0.0,
     "placeholder": true,
     "markers": [],
     "reasons": [
      "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
+     "5 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "2.1",
-   "title": "More Methodology",
+   "title": "Informed Consent in German Law",
    "level": 2,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c3-method.typ"
+    "chapters/c2-background.typ"
    ],
    "range": [
     {
-     "file": "chapters/c3-method.typ",
+     "file": "chapters/c2-background.typ",
      "start": 4,
      "end": 6
     }
@@ -262,24 +338,18 @@ window.MARGI_DASH = {
   },
   {
    "id": "2.2",
-   "title": "Even More Methodology",
+   "title": "Large Language Models",
    "level": 2,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c3-method.typ",
-    "main.typ"
+    "chapters/c2-background.typ"
    ],
    "range": [
     {
-     "file": "chapters/c3-method.typ",
+     "file": "chapters/c2-background.typ",
      "start": 7,
-     "end": 8
-    },
-    {
-     "file": "main.typ",
-     "start": 95,
-     "end": 95
+     "end": 9
     }
    ],
    "readiness": {
@@ -291,91 +361,63 @@ window.MARGI_DASH = {
     "reasons": [
      "contains placeholder text (lorem ipsum)",
      "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "2.3",
+   "title": "Thieme Compliance's Approach to Digital Products",
+   "level": 2,
+   "chars": 34,
+   "share": 0.0094,
+   "files": [
+    "chapters/c2-background.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c2-background.typ",
+     "start": 10,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 10,
+     "end": 12
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 5,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "5 words of running prose (needs 150)"
     ]
    }
   },
   {
    "id": "3",
-   "title": "Results",
+   "title": "Introduction",
    "level": 1,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c4-results.typ",
+    "chapters/c3-intro-design.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/c4-results.typ",
+     "file": "chapters/c3-intro-design.typ",
      "start": 1,
-     "end": 8
+     "end": 2
     },
     {
      "file": "main.typ",
-     "start": 96,
-     "end": 96
-    }
-   ],
-   "readiness": {
-    "ready": false,
-    "words": 0,
-    "list_share": 0.0,
-    "placeholder": true,
-    "markers": [],
-    "reasons": [
-     "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
-    ]
-   }
-  },
-  {
-   "id": "3.1",
-   "title": "More Results",
-   "level": 2,
-   "chars": 0,
-   "share": 0.0,
-   "files": [
-    "chapters/c4-results.typ"
-   ],
-   "range": [
-    {
-     "file": "chapters/c4-results.typ",
-     "start": 4,
-     "end": 6
-    }
-   ],
-   "readiness": {
-    "ready": false,
-    "words": 0,
-    "list_share": 0.0,
-    "placeholder": true,
-    "markers": [],
-    "reasons": [
-     "contains placeholder text (lorem ipsum)",
-     "0 words of running prose (needs 150)"
-    ]
-   }
-  },
-  {
-   "id": "3.2",
-   "title": "Even More Results",
-   "level": 2,
-   "chars": 0,
-   "share": 0.0,
-   "files": [
-    "chapters/c4-results.typ",
-    "main.typ"
-   ],
-   "range": [
-    {
-     "file": "chapters/c4-results.typ",
-     "start": 7,
-     "end": 8
-    },
-    {
-     "file": "main.typ",
-     "start": 96,
-     "end": 96
+     "start": 13,
+     "end": 13
     }
    ],
    "readiness": {
@@ -392,24 +434,24 @@ window.MARGI_DASH = {
   },
   {
    "id": "4",
-   "title": "Discussion",
+   "title": "Related Work",
    "level": 1,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c5-discussion.typ",
+    "chapters/c4-lit-design.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/c5-discussion.typ",
+     "file": "chapters/c4-lit-design.typ",
      "start": 1,
      "end": 8
     },
     {
      "file": "main.typ",
-     "start": 97,
-     "end": 97
+     "start": 14,
+     "end": 14
     }
    ],
    "readiness": {
@@ -426,16 +468,16 @@ window.MARGI_DASH = {
   },
   {
    "id": "4.1",
-   "title": "More Discussion",
+   "title": "Multi-modal LLMs",
    "level": 2,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c5-discussion.typ"
+    "chapters/c4-lit-design.typ"
    ],
    "range": [
     {
-     "file": "chapters/c5-discussion.typ",
+     "file": "chapters/c4-lit-design.typ",
      "start": 4,
      "end": 6
     }
@@ -454,24 +496,24 @@ window.MARGI_DASH = {
   },
   {
    "id": "4.2",
-   "title": "Even More Discussion",
+   "title": "Conversational Agents",
    "level": 2,
    "chars": 0,
    "share": 0.0,
    "files": [
-    "chapters/c5-discussion.typ",
+    "chapters/c4-lit-design.typ",
     "main.typ"
    ],
    "range": [
     {
-     "file": "chapters/c5-discussion.typ",
+     "file": "chapters/c4-lit-design.typ",
      "start": 7,
      "end": 8
     },
     {
      "file": "main.typ",
-     "start": 97,
-     "end": 97
+     "start": 14,
+     "end": 14
     }
    ],
    "readiness": {
@@ -488,26 +530,952 @@ window.MARGI_DASH = {
   },
   {
    "id": "5",
+   "title": "Requirements",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c5-requirements.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c5-requirements.typ",
+     "start": 1,
+     "end": 10
+    },
+    {
+     "file": "main.typ",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "5.1",
+   "title": "Functional Scope",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c5-requirements.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c5-requirements.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "5.2",
+   "title": "Company Constraints",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c5-requirements.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c5-requirements.typ",
+     "start": 7,
+     "end": 10
+    },
+    {
+     "file": "main.typ",
+     "start": 15,
+     "end": 15
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "6",
+   "title": "System Design",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c6-system-design.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c6-system-design.typ",
+     "start": 1,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "6.1",
+   "title": "Data Sources",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c6-system-design.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c6-system-design.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "6.2",
+   "title": "Graph Structure",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c6-system-design.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c6-system-design.typ",
+     "start": 7,
+     "end": 9
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "6.3",
+   "title": "Guardrails",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c6-system-design.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c6-system-design.typ",
+     "start": 10,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 16,
+     "end": 16
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "7",
+   "title": "Implementation",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c7-implementation.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c7-implementation.typ",
+     "start": 1,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 17,
+     "end": 17
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "7.1",
+   "title": "Tools and Frameworks",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c7-implementation.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c7-implementation.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "7.2",
+   "title": "Deployment and Access",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c7-implementation.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c7-implementation.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 17,
+     "end": 17
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "8",
+   "title": "Feedback and Iterations",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c8-feedback.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c8-feedback.typ",
+     "start": 1,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "8.1",
+   "title": "Internal Testing",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c8-feedback.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c8-feedback.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "8.2",
+   "title": "Refinement for User Tests",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c8-feedback.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c8-feedback.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 18,
+     "end": 18
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "9",
+   "title": "Interim Discussion",
+   "level": 1,
+   "chars": 20,
+   "share": 0.0055,
+   "files": [
+    "chapters/c9-discussion-design.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c9-discussion-design.typ",
+     "start": 1,
+     "end": 2
+    },
+    {
+     "file": "main.typ",
+     "start": 19,
+     "end": 22
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 3,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "3 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "10",
+   "title": "Introduction",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c10-intro-eval.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c10-intro-eval.typ",
+     "start": 1,
+     "end": 2
+    },
+    {
+     "file": "main.typ",
+     "start": 23,
+     "end": 23
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "11",
+   "title": "Related Work",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c11-lit-eval.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c11-lit-eval.typ",
+     "start": 1,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 24,
+     "end": 24
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "11.1",
+   "title": "Lexical Metrics",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c11-lit-eval.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c11-lit-eval.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "11.2",
+   "title": "Embeddings",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c11-lit-eval.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c11-lit-eval.typ",
+     "start": 7,
+     "end": 9
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "11.3",
+   "title": "LLM-as-a-Judge",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c11-lit-eval.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c11-lit-eval.typ",
+     "start": 10,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 24,
+     "end": 24
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "12",
+   "title": "Data",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c12-data.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c12-data.typ",
+     "start": 1,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 25,
+     "end": 25
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "12.1",
+   "title": "Gold Standard Dataset",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c12-data.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c12-data.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "12.2",
+   "title": "Limitations",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c12-data.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c12-data.typ",
+     "start": 7,
+     "end": 8
+    },
+    {
+     "file": "main.typ",
+     "start": 25,
+     "end": 25
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "13",
+   "title": "Methodology",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c13-method.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c13-method.typ",
+     "start": 1,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 26,
+     "end": 26
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "13.1",
+   "title": "Lexical Metrics",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c13-method.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c13-method.typ",
+     "start": 4,
+     "end": 6
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "13.2",
+   "title": "Embeddings",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c13-method.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c13-method.typ",
+     "start": 7,
+     "end": 9
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "13.3",
+   "title": "LLM Judges",
+   "level": 2,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c13-method.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c13-method.typ",
+     "start": 10,
+     "end": 11
+    },
+    {
+     "file": "main.typ",
+     "start": 26,
+     "end": 26
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "14",
+   "title": "Results",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c14-results.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c14-results.typ",
+     "start": 1,
+     "end": 2
+    },
+    {
+     "file": "main.typ",
+     "start": 27,
+     "end": 27
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "15",
+   "title": "Interim Discussion",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c15-discussion-evaluation.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c15-discussion-evaluation.typ",
+     "start": 1,
+     "end": 2
+    },
+    {
+     "file": "main.typ",
+     "start": 28,
+     "end": 30
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "16",
+   "title": "Discussion",
+   "level": 1,
+   "chars": 0,
+   "share": 0.0,
+   "files": [
+    "chapters/c16-discussion.typ",
+    "main.typ"
+   ],
+   "range": [
+    {
+     "file": "chapters/c16-discussion.typ",
+     "start": 1,
+     "end": 2
+    },
+    {
+     "file": "main.typ",
+     "start": 31,
+     "end": 31
+    }
+   ],
+   "readiness": {
+    "ready": false,
+    "words": 0,
+    "list_share": 0.0,
+    "placeholder": true,
+    "markers": [],
+    "reasons": [
+     "contains placeholder text (lorem ipsum)",
+     "0 words of running prose (needs 150)"
+    ]
+   }
+  },
+  {
+   "id": "17",
    "title": "Conclusion",
    "level": 1,
    "chars": 68,
-   "share": 1.0,
+   "share": 0.0188,
    "files": [
-    "chapters/c6-conclusion.typ",
+    "chapters/c17-conclusion.typ",
     "main.typ",
     "misc/appendix.typ",
     "misc/declaration.typ"
    ],
    "range": [
     {
-     "file": "chapters/c6-conclusion.typ",
+     "file": "chapters/c17-conclusion.typ",
      "start": 1,
      "end": 2
     },
     {
      "file": "main.typ",
-     "start": 98,
-     "end": 103
+     "start": 32,
+     "end": 38
     },
     {
      "file": "misc/appendix.typ",
@@ -516,13 +1484,13 @@ window.MARGI_DASH = {
     },
     {
      "file": "main.typ",
-     "start": 104,
-     "end": 106
+     "start": 39,
+     "end": 41
     },
     {
      "file": "misc/declaration.typ",
      "start": 1,
-     "end": 33
+     "end": 25
     }
    ],
    "readiness": {
@@ -538,9 +1506,436 @@ window.MARGI_DASH = {
    }
   }
  ],
- "grades": {},
+ "grades": {
+  "1": [
+   {
+    "run": "20261031T095533Z-2d78c9",
+    "file": "20261031T095533Z_grade_1.json",
+    "timestamp": "2026-10-31T09:55:33Z",
+    "scope": "1",
+    "summary": "First grade of the Introduction (about 548 words, five subsections). The chapter sets up the problem and the two-part structure, but never states the research question documented in margi/docs/research-question.md; it invents two subquestions the docs say don't exist. Nearly all factual claims (legal duty, leaflet comprehension, consultation time) are uncited, and there is no engagement with literature. The `method` category is omitted because an introduction does not carry a method description.",
+    "scores": {
+     "alignment": {
+      "score": 2,
+      "max": 5,
+      "rationale": "The documented research question does not appear, and the subquestion framing contradicts the docs. The voicebot, the speech-to-speech approach and the success criterion are absent. See c1, c4.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c1",
+       "20261031T095533Z-2d78c9:c4"
+      ]
+     },
+     "argument": {
+      "score": 2,
+      "max": 5,
+      "rationale": "The line from medicine's complexity to the thesis is traceable, but the step from the problem to the proposed solution is never made, and the Digital Humanities claim is asserted rather than argued. See c3, c5.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c3",
+       "20261031T095533Z-2d78c9:c5"
+      ]
+     },
+     "evidence": {
+      "score": 2,
+      "max": 5,
+      "rationale": "The legal duty, comprehension problems with leaflets and time pressure on doctors are all stated as fact without a source. See c2, c3.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c2",
+       "20261031T095533Z-2d78c9:c3"
+      ]
+     },
+     "scholarship": {
+      "score": 1,
+      "max": 5,
+      "rationale": "No reference to any literature, existing systems or debate appears in the chapter. See c6.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c6"
+      ]
+     },
+     "structure": {
+      "score": 3,
+      "max": 5,
+      "rationale": "The two-part split is announced early and picked up again in 1.5, which is followable. The roadmap in 1.5 stops at that split, and the company description is long relative to the other sections. See c7, c8, c9.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c7",
+       "20261031T095533Z-2d78c9:c8",
+       "20261031T095533Z-2d78c9:c9"
+      ]
+     },
+     "style": {
+      "score": 2,
+      "max": 5,
+      "rationale": "Several spelling errors, loose terms (section/subquestion/part) and colloquial phrasing reduce precision. See c10, c11.",
+      "comment_ids": [
+       "20261031T095533Z-2d78c9:c10",
+       "20261031T095533Z-2d78c9:c11"
+      ]
+     }
+    },
+    "comments": [
+     {
+      "id": "20261031T095533Z-2d78c9:c1",
+      "category": "alignment",
+      "severity": "major",
+      "body": "The chapter says the main research question will be divided into two subquestions, but the main question is never stated. The project docs record one research question and explicitly no formal subquestions or hypotheses. Either the docs or the chapter is out of date; the reader currently gets two questions and no overarching one to which the thesis answers.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 10,
+       "line_end": 10,
+       "quote": "Since this is an applied science project, the main research question will be divided in two subquestions.",
+       "anchor_status": "ok"
+      },
+      "ref": "c1"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c2",
+      "category": "evidence",
+      "severity": "major",
+      "body": "The legal obligation is the foundation of the whole thesis, yet it is asserted without a source (statute, case law or guideline). The same applies to the opening claim about standardisation in medicine. The sentence also leaves open what exactly is mandatory and what is not: 'form and amount' are said to be unspecified, which needs a source too.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 4,
+       "line_end": 4,
+       "quote": "medical doctors are required by law to do informed consent consultations for their patients prior to a surgerey or medical procedure",
+       "anchor_status": "ok"
+      },
+      "ref": "c2"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c3",
+      "category": "argument",
+      "severity": "major",
+      "body": "The Problem section rests on two empirical claims (leaflets are hard to understand; doctors have little time) with no source or data. It also stops at the problem: nothing connects it to the proposed answer (an AI voicebot for preparation before the consultation), so the reader cannot see why this system, why voice, and why LLMs follow from the problem.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 7,
+       "line_end": 7,
+       "quote": "Medical doctors also don't have a high amount of time for their patients which results in rather short and superficial consultations",
+       "anchor_status": "ok"
+      },
+      "ref": "c3"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c4",
+      "category": "alignment",
+      "severity": "major",
+      "body": "Missing: what is actually built and evaluated. The introduction never names the voicebot, the speech-to-speech/graph-based design or the evaluation target (gold standard, similarity threshold), and it does not state the contribution (showcase plus reusable evaluation template) or the scope limits (single default case, preparation only, no evaluation of part one). The reader finishes the chapter without knowing what the thesis delivers. No single passage; belongs after the research questions in 1.2 or in a dedicated place in the chapter.",
+      "ref": "c4"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c5",
+      "category": "argument",
+      "severity": "major",
+      "body": "The relation to Digital Humanities is the shortest section and the least argued. The definition of DH is unsourced and loosely phrased, and the placement in 'interaction between society and technology' is asserted without saying what that means or which DH positions support it. For a thesis submitted in DH this section has to carry real weight; at present it reads as a disclaimer.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 23,
+       "line_end": 23,
+       "quote": "on closer inspection it falls into the area of interaction between society and technology",
+       "anchor_status": "ok"
+      },
+      "ref": "c5"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c6",
+      "category": "scholarship",
+      "severity": "major",
+      "body": "No literature is cited anywhere in the chapter. Even an introduction has to position the project against existing work on patient education, conversational agents in healthcare and LLM evaluation, and say how this thesis differs. The literature listed in margi/docs/field.md (e-learning chatbots) is not used here either, and the docs record that medical literature is still missing.",
+      "ref": "c6"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c7",
+      "category": "structure",
+      "severity": "minor",
+      "body": "The roadmap names two parts but no chapters, and it does not say how the parts relate to the research questions in 1.2 or what each delivers. The two parts are also called 'subquestion', 'section' and 'part' in different places, which makes the mapping hard to follow.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 29,
+       "line_end": 29,
+       "quote": "This thesis is structured into two main parts where the first part focusses on the development of the prototype app",
+       "anchor_status": "ok"
+      },
+      "ref": "c7"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c8",
+      "category": "structure",
+      "severity": "minor",
+      "body": "The company section is the longest subsection and mixes background (merger history) with product detail that reads as description of the software. It is not clear what from this the reader needs to understand the thesis; the link to the constraints the company imposes on scope, stack and budget is not made here.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 26,
+       "line_end": 26,
+       "quote": "It is the result of the aquisition of the two companies Diomed and proCompliance which were merged to the company Thieme Compliance.",
+       "anchor_status": "ok"
+      },
+      "ref": "c8"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c9",
+      "category": "structure",
+      "severity": "note",
+      "body": "The split into a build part and an evaluation part is introduced clearly in 1.2 and picked up again in 1.5. Keep this parallel as the chapter changes.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 14,
+       "line_end": 14,
+       "quote": "This subquestion focusses mainly on the applied and technical part, dealing more with design regards, software development and DevOps.",
+       "anchor_status": "ok"
+      }
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c10",
+      "category": "style",
+      "severity": "minor",
+      "body": "Spelling errors: 'wellbeeing' (line 2), 'surgerey' (line 4), 'aquisition' (line 26), 'amanesis' (line 26), 'already know' (line 26). Also check 'improves methods' (line 2) and 'the traditionally' (line 23).",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 26,
+       "line_end": 26,
+       "quote": "pre-filling fields with already know patient data or pre-filtering amanesis questions",
+       "anchor_status": "ok"
+      },
+      "ref": "c9"
+     },
+     {
+      "id": "20261031T095533Z-2d78c9:c11",
+      "category": "style",
+      "severity": "minor",
+      "body": "Terminology drifts: the second subquestion is called 'this section', the first is called a 'subquestion' and a 'part', and the system is called 'prototype', 'digital product' and 'system'. Phrases such as 'in the modern times' and 'rather short and superficial' are vague. Pick one term per object and keep it across the thesis.",
+      "anchor": {
+       "file": "chapters/c1-introduction.typ",
+       "line_start": 20,
+       "line_end": 20,
+       "quote": "this section is closer to scientific processes and utilises methods from NLP and generative AI to evaluate quality of the system build in the first part.",
+       "anchor_status": "ok"
+      },
+      "ref": "c10"
+     }
+    ],
+    "low_confidence": false,
+    "model": "claude-sonnet-5-5",
+    "rubric": "1.0",
+    "changed": [],
+    "override": false,
+    "readiness_reasons": [],
+    "saved": "2026-10-31T10:54:41+01:00"
+   }
+  ]
+ },
  "prechecks": {},
- "comments": [],
+ "comments": [
+  {
+   "ref": "c1",
+   "id": "20261031T095533Z-2d78c9:c1",
+   "section": "1.2",
+   "severity": "major",
+   "category": "alignment",
+   "body": "The chapter says the main research question will be divided into two subquestions, but the main question is never stated. The project docs record one research question and explicitly no formal subquestions or hypotheses. Either the docs or the chapter is out of date; the reader currently gets two questions and no overarching one to which the thesis answers.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 10,
+    "line_end": 10,
+    "quote": "Since this is an applied science project, the main research question will be divided in two subquestions.",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 10,
+    "line_end": 10
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c2",
+   "id": "20261031T095533Z-2d78c9:c2",
+   "section": "1",
+   "severity": "major",
+   "category": "evidence",
+   "body": "The legal obligation is the foundation of the whole thesis, yet it is asserted without a source (statute, case law or guideline). The same applies to the opening claim about standardisation in medicine. The sentence also leaves open what exactly is mandatory and what is not: 'form and amount' are said to be unspecified, which needs a source too.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 4,
+    "line_end": 4,
+    "quote": "medical doctors are required by law to do informed consent consultations for their patients prior to a surgerey or medical procedure",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 4,
+    "line_end": 4
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c3",
+   "id": "20261031T095533Z-2d78c9:c3",
+   "section": "1.1",
+   "severity": "major",
+   "category": "argument",
+   "body": "The Problem section rests on two empirical claims (leaflets are hard to understand; doctors have little time) with no source or data. It also stops at the problem: nothing connects it to the proposed answer (an AI voicebot for preparation before the consultation), so the reader cannot see why this system, why voice, and why LLMs follow from the problem.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 7,
+    "line_end": 7,
+    "quote": "Medical doctors also don't have a high amount of time for their patients which results in rather short and superficial consultations",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 7,
+    "line_end": 7
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c4",
+   "id": "20261031T095533Z-2d78c9:c4",
+   "section": "1",
+   "severity": "major",
+   "category": "alignment",
+   "body": "Missing: what is actually built and evaluated. The introduction never names the voicebot, the speech-to-speech/graph-based design or the evaluation target (gold standard, similarity threshold), and it does not state the contribution (showcase plus reusable evaluation template) or the scope limits (single default case, preparation only, no evaluation of part one). The reader finishes the chapter without knowing what the thesis delivers. No single passage; belongs after the research questions in 1.2 or in a dedicated place in the chapter.",
+   "anchor": null,
+   "now": null,
+   "signal": null,
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c5",
+   "id": "20261031T095533Z-2d78c9:c5",
+   "section": "1.3",
+   "severity": "major",
+   "category": "argument",
+   "body": "The relation to Digital Humanities is the shortest section and the least argued. The definition of DH is unsourced and loosely phrased, and the placement in 'interaction between society and technology' is asserted without saying what that means or which DH positions support it. For a thesis submitted in DH this section has to carry real weight; at present it reads as a disclaimer.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 23,
+    "line_end": 23,
+    "quote": "on closer inspection it falls into the area of interaction between society and technology",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 23,
+    "line_end": 23
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c6",
+   "id": "20261031T095533Z-2d78c9:c6",
+   "section": "1",
+   "severity": "major",
+   "category": "scholarship",
+   "body": "No literature is cited anywhere in the chapter. Even an introduction has to position the project against existing work on patient education, conversational agents in healthcare and LLM evaluation, and say how this thesis differs. The literature listed in margi/docs/field.md (e-learning chatbots) is not used here either, and the docs record that medical literature is still missing.",
+   "anchor": null,
+   "now": null,
+   "signal": null,
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c7",
+   "id": "20261031T095533Z-2d78c9:c7",
+   "section": "1.5",
+   "severity": "minor",
+   "category": "structure",
+   "body": "The roadmap names two parts but no chapters, and it does not say how the parts relate to the research questions in 1.2 or what each delivers. The two parts are also called 'subquestion', 'section' and 'part' in different places, which makes the mapping hard to follow.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 29,
+    "line_end": 29,
+    "quote": "This thesis is structured into two main parts where the first part focusses on the development of the prototype app",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 29,
+    "line_end": 29
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c8",
+   "id": "20261031T095533Z-2d78c9:c8",
+   "section": "1.4",
+   "severity": "minor",
+   "category": "structure",
+   "body": "The company section is the longest subsection and mixes background (merger history) with product detail that reads as description of the software. It is not clear what from this the reader needs to understand the thesis; the link to the constraints the company imposes on scope, stack and budget is not made here.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 26,
+    "line_end": 26,
+    "quote": "It is the result of the aquisition of the two companies Diomed and proCompliance which were merged to the company Thieme Compliance.",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 26,
+    "line_end": 26
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c9",
+   "id": "20261031T095533Z-2d78c9:c10",
+   "section": "1.4",
+   "severity": "minor",
+   "category": "style",
+   "body": "Spelling errors: 'wellbeeing' (line 2), 'surgerey' (line 4), 'aquisition' (line 26), 'amanesis' (line 26), 'already know' (line 26). Also check 'improves methods' (line 2) and 'the traditionally' (line 23).",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 26,
+    "line_end": 26,
+    "quote": "pre-filling fields with already know patient data or pre-filtering amanesis questions",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 26,
+    "line_end": 26
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  },
+  {
+   "ref": "c10",
+   "id": "20261031T095533Z-2d78c9:c11",
+   "section": "1.2",
+   "severity": "minor",
+   "category": "style",
+   "body": "Terminology drifts: the second subquestion is called 'this section', the first is called a 'subquestion' and a 'part', and the system is called 'prototype', 'digital product' and 'system'. Phrases such as 'in the modern times' and 'rather short and superficial' are vague. Pick one term per object and keep it across the thesis.",
+   "anchor": {
+    "file": "chapters/c1-introduction.typ",
+    "line_start": 20,
+    "line_end": 20,
+    "quote": "this section is closer to scientific processes and utilises methods from NLP and generative AI to evaluate quality of the system build in the first part.",
+    "anchor_status": "ok"
+   },
+   "now": {
+    "line_start": 20,
+    "line_end": 20
+   },
+   "signal": "unchanged",
+   "state": "open",
+   "created": "2026-10-31T09:55:33Z",
+   "history": []
+  }
+ ],
  "grade_precheck": "ask",
  "docs": {
   "filled": 26,
@@ -565,7 +1960,7 @@ window.MARGI_DASH = {
  },
  "outline": {
   "unit": "chars",
-  "total": 68,
+  "total": 3625,
   "history": [],
   "changed": []
  },
@@ -577,6 +1972,14 @@ window.MARGI_DASH = {
  "todos": [],
  "todo_sync": false,
  "runs": [
+  {
+   "timestamp": "2026-10-31T09:55:33Z",
+   "command": "grade",
+   "scope": "1",
+   "summary": "First grade of the Introduction (about 548 words, five subsections). The chapter sets up the problem and the two-part structure, but never states the research question documented in margi/docs/research-question.md; it invents two subquestions the docs say don't exist. Nearly all factual claims (legal duty, leaflet comprehension, consultation time) are uncited, and there is no engagement with literature. The `method` category is omitted because an introduction does not carry a method description.",
+   "model": "claude-sonnet-5-5",
+   "file": "20261031T095533Z_grade_1.json"
+  },
   {
    "timestamp": "2026-10-16T19:48:27Z",
    "command": "propose",
@@ -626,7 +2029,7 @@ window.MARGI_DASH = {
   "unit": "chars",
   "milestones": [],
   "problem": null,
-  "reference": "2026-10-19",
+  "reference": "2026-10-31",
   "commits": [
    [
     "2026-10-07",
@@ -642,10 +2045,26 @@ window.MARGI_DASH = {
    ],
    [
     "2026-10-19",
+    2
+   ],
+   [
+    "2026-10-22",
+    1
+   ],
+   [
+    "2026-10-31",
     1
    ]
   ],
-  "events": []
+  "events": [
+   {
+    "timestamp": "2026-10-31T09:55:33Z",
+    "kind": "grade",
+    "section": "1",
+    "file": "20261031T095533Z_grade_1.json",
+    "low_confidence": false
+   }
+  ]
  },
  "submission": {
   "check": null,
@@ -654,6 +2073,18 @@ window.MARGI_DASH = {
   "defended": 0
  },
  "next_steps": [
+  {
+   "command": "/margi challenge research question",
+   "reason": "The chapter's subquestion framing conflicts with the documented single research question.",
+   "source": "session",
+   "timestamp": "2026-10-31T09:55:33Z"
+  },
+  {
+   "command": "/margi read",
+   "reason": "The introduction cites no literature and the docs record that healthcare sources are still missing.",
+   "source": "session",
+   "timestamp": "2026-10-31T09:55:33Z"
+  },
   {
    "command": "/margi outline",
    "reason": "No length snapshot yet.",
@@ -702,12 +2133,12 @@ window.MARGI_DASH = {
    {
     "id": "grade",
     "title": "Grade a first section",
-    "done": false,
-    "date": null,
-    "command": "/margi grade 5"
+    "done": true,
+    "date": "2026-10-31T09:55:33Z",
+    "command": "/margi grade 1"
    }
   ],
-  "done": 4,
+  "done": 5,
   "total": 6
  }
 };
