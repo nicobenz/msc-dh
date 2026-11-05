@@ -1,7 +1,9 @@
 = Introduction
 In the modern times, medicine has become a scientific field with vast improvement and many complex procedures due to improves methods and technological help. Alongside that, medical procedures became more standardised with best practices and common ways to treat illnesses and medical issues. But the sheer complexity of medical knowledge and procedures led to an increased difficulty for patients to understand these procedures and grasp their effect on their health and wellbeeing.
 
-In the German healthcare system, medical doctors are required by law to do informed consent consultations for their patients prior to a surgerey or medical procedure. This is in fact mandatory for them, but the form and amount is not specified exactly. It can be done only in form of speech during the consultation or can optionally be facilitated by leaflets or digital media.
+In the German healthcare system, medical doctors are required by law in § 630d BGB to do informed consent consultations for their patients prior to a surgerey or medical procedure @bgb_630d. That paragraph dictates that patient need to consent into their upcoming medical procedure, while § 630e BGB governs the actual prerequisites that are need to be met for given consent to be valid, like information on reasons for the procedure, alternatives, possible side effects and description of the procedure itself @bgb_630e.
+
+While these laws govern the informed consent, the form and amount is not specified exactly. It can be done only in spoken form during the consultation or can optionally be facilitated by leaflets or digital media.
 
 == Problem
 Even though medical informed consent leaflet exists, these text are often difficult to understand as well, which makes them not ideal to patients to read without any possibility to ask questions or request clarification. Medical doctors also don't have a high amount of time for their patients which results in rather short and superficial consultations that do not result in a good understanding of the planned procedure for the patients.

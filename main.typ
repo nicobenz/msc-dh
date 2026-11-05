@@ -32,7 +32,7 @@
 
 
 #pagebreak()
-#bibliography("misc/lit.bib", style: "apa")
+#bibliography("refs.bib", style: "apa")
 
 #pagebreak()
 #include "misc/appendix.typ"
